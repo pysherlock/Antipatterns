@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License.
+ -->
+<beans xmlns="http://www.springframework.org/schema/beans" 
+
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:aop="http://www.springframework.org/schema/aop"
+  xmlns:configurator="http://cocoon.apache.org/schema/configurator"
+  
+  xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                      http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+                      http://cocoon.apache.org/schema/configurator http://cocoon.apache.org/schema/configurator/cocoon-configurator-1.0.1.xsd">
+
+  <!-- spring -->
+  <bean id="org.apache.cocoon.profiling.spring.AutomaticProfilerInstaller"
+    class="org.apache.cocoon.profiling.spring.AutomaticProfilerInstaller"
+    init-method="installProfilers">
+    <property name="servletInvocationDispatcher" ref="org.apache.cocoon.profiling.aspects.ServletInvocationDispatcher" />
+    <property name="pipelineComponentInvocationDispatcher" ref="org.apache.cocoon.profiling.aspects.PipelineComponentInvocationDispatcher" />
+    <property name="pipelineInvocationDispatcher" ref="org.apache.cocoon.profiling.aspects.PipelineInvocationDispatcher" />
+    <property name="sitemapNodeInvocationDispatcher" ref="org.apache.cocoon.profiling.aspects.SitemapNodeInvocationDispatcher" />
+    <property name="profilingDataManager" ref="org.apache.cocoon.profiling.data.ProfilingDataManager" />
+    <property name="profilingIdGenerator" ref="org.apache.cocoon.profiling.data.ProfilingIdGenerator" />
+    <property name="profilers">
+      <configurator:bean-map type="org.apache.cocoon.profiling.profiler.Profiler" check-parent="true" />
+    </property>
+  </bean>
+
+  <!--  aspects -->
+  <bean id="org.apache.cocoon.profiling.aspects.ServletProfilingAspect" class="org.apache.cocoon.profiling.aspects.ServletProfilingAspect">
+    <property name="invocationDispatcher" ref="org.apache.cocoon.profiling.aspects.ServletInvocationDispatcher" />
+    <property name="profilingManagement" ref="org.apache.cocoon.profiling.jmx.ProfilingMBean"/>
+  </bean>
+
+  <bean id="org.apache.cocoon.profiling.aspects.PipelineComponentProfilingAspect" class="org.apache.cocoon.profiling.aspects.PipelineComponentProfilingAspect">
+    <property name="invocationDispatcher" ref="org.apache.cocoon.profiling.aspects.PipelineComponentInvocationDispatcher" />
+    <property name="profilingManagement" ref="org.apache.cocoon.profiling.jmx.ProfilingMBean"/>
+  </bean>
+
+  <bean id="org.apache.cocoon.profiling.aspects.PipelineProfilingAspect" class="org.apache.cocoon.profiling.aspects.PipelineProfilingAspect">
+    <property name="invocationDispatcher" ref="org.apache.cocoon.profiling.aspects.PipelineInvocationDispatcher" />
+    <property name="profilingManagement" ref="org.apache.cocoon.profiling.jmx.ProfilingMBean"/>
+  </bean>
+
+  <bean id="org.apache.cocoon.profiling.aspects.SitemapNodeProfilingAspect" class="org.apache.cocoon.profiling.aspects.SitemapNodeProfilingAspect">
+    <property name="invocationDispatcher" ref="org.apache.cocoon.profiling.aspects.SitemapNodeInvocationDispatcher" />
+    <property name="profilingManagement" ref="org.apache.cocoon.profiling.jmx.ProfilingMBean"/>
+  </bean>
+
+  <!-- dispatcher -->
+  <bean id="org.apache.cocoon.profiling.aspects.ServletInvocationDispatcher" class="org.apache.cocoon.profiling.aspects.InvocationDispatcher" />
+  <bean id="org.apache.cocoon.profiling.aspects.PipelineComponentInvocationDispatcher" class="org.apache.cocoon.profiling.aspects.InvocationDispatcher" />
+  <bean id="org.apache.cocoon.profiling.aspects.PipelineInvocationDispatcher" class="org.apache.cocoon.profiling.aspects.InvocationDispatcher" />
+  <bean id="org.apache.cocoon.profiling.aspects.SitemapNodeInvocationDispatcher" class="org.apache.cocoon.profiling.aspects.InvocationDispatcher" />
+
+  <!-- profilers -->
+  <bean id="org.apache.cocoon.profiling.profiler.ServletProfiler" class="org.apache.cocoon.profiling.profiler.ServletProfiler" />
+  <bean id="org.apache.cocoon.profiling.profiler.PipelineComponentProfiler" class="org.apache.cocoon.profiling.profiler.PipelineComponentProfiler" />
+  <bean id="org.apache.cocoon.profiling.profiler.PipelineProfiler" class="org.apache.cocoon.profiling.profiler.PipelineProfiler" />
+  <bean id="org.apache.cocoon.profiling.profiler.SitemapNodeProfiler" class="org.apache.cocoon.profiling.profiler.SitemapNodeProfiler" />
+  <bean id="org.apache.cocoon.profiling.profiler.MatchNodeProfiler" class="org.apache.cocoon.profiling.profiler.MatchNodeProfiler" />
+  <bean id="org.apache.cocoon.profiling.profiler.GenerateNodeProfiler" class="org.apache.cocoon.profiling.profiler.GenerateNodeProfiler" />
+  <bean id="org.apache.cocoon.profiling.profiler.PipelineNodeProfiler" class="org.apache.cocoon.profiling.profiler.PipelineNodeProfiler" />
+  <bean id="org.apache.cocoon.profiling.profiler.TransformNodeProfiler" class="org.apache.cocoon.profiling.profiler.TransformNodeProfiler" />
+
+  <!-- jmx -->
+  <bean id="org.apache.cocoon.profiling.jmx.ProfilingMBean" class="org.apache.cocoon.profiling.jmx.ProfilingManagement"/>
+
+  <!-- cocoon components -->
+  <bean name="generator:profiling" class="org.apache.cocoon.profiling.component.ProfilingGenerator" scope="prototype">
+    <property name="profilingDataHolder" ref="org.apache.cocoon.profiling.data.ProfilingDataHolder" />
+  </bean>
+
+  <bean name="serializer:profilingpng" class="org.apache.cocoon.profiling.component.ProfilingPngSerializer" scope="prototype">
+    <property name="profilingDataHolder" ref="org.apache.cocoon.profiling.data.ProfilingDataHolder" />
+  </bean>
+
+  <!-- misc components -->
+  <bean id="org.apache.cocoon.profiling.data.ProfilingDataManager" class="org.apache.cocoon.profiling.data.ProfilingDataManagerImpl">
+    <property name="profilingDataHolder" ref="org.apache.cocoon.profiling.data.ProfilingDataHolder" />
+  </bean>
+
+  <bean id="org.apache.cocoon.profiling.data.ProfilingDataHolder" class="org.apache.cocoon.profiling.data.EhCacheProfilingDataHolder" init-method="setupCache">
+  	<property name="cacheManager" ref="cacheManager"/>
+  	<property name="cacheName" value="profilingCache" />
+  </bean>
+  
+  <bean id="cacheManager" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean">
+  	<property name="configLocation" value="classpath:/META-INF/ehcache/cocoon-profiling-ehcache.xml" />
+  </bean>
+  
+  <bean id="org.apache.cocoon.profiling.data.ProfilingIdGenerator" class="org.apache.cocoon.profiling.data.UUIDProfilingIdGenerator" />
+
+  <aop:aspectj-autoproxy />
+</beans>

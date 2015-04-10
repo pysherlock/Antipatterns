@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License.
+-->
+<!--
+  Find usage details at http://maven.apache.org/plugins/maven-changes-plugin/usage.html
+
+  $Id: changes.xml 1133508 2011-06-08 18:54:14Z simonetripodi $
+-->
+<document xmlns="http://maven.apache.org/changes/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/plugins/maven-changes-plugin/xsd/changes-1.0.0.xsd">
+
+  <body>
+    <release version="3.0.0-alpha-3" date="2011-06-08" description="released">
+      <action dev="simonetripodi" type="fix" issue="COCOON3-58">
+        [cocoon-sax] The org.apache.cocoon.optional.pipeline.components.sax.jaxb.JAXBGenerator is incomplete.
+      </action>
+
+      <action dev="ilgrosso" type="fix" issue="COCOON3-57">
+        [cocoon-sax] Add the LogAsXMLTransformer, prints out the complete XML document; useful for debugging.
+      </action>
+
+      <action dev="ilgrosso" type="fix" issue="COCOON3-56">
+        [cocoon-sax][cocoon-sitemap] The LinkRewriter Transformer needs to be integrated in the sitemap.
+      </action>
+
+      <action dev="ilgrosso" type="fix" issue="COCOON3-55">
+        [cocoon-sax][cocoon-sitemap] The XInclude Transformer needs to be integrated in the sitemap.
+      </action>
+
+      <action dev="simonetripodi" type="fix" issue="COCOON3-54">
+        [cocoon-sax] Added the LinkRewriterTransformer component.
+      </action>
+
+      <action dev="reinhard" type="fix" issue="COCOON3-53">
+        [cocoon-pipeline] XMLSerializer caches all.
+      </action>
+
+      <action dev="simonetripodi" type="fix" issue="COCOON3-52">
+        [cocoon-sax] XMLSerializer setup method resets output method to xml.
+      </action>
+
+      <action dev="simonetripodi" type="fix" issue="COCOON3-51">
+        [cocoon-sax] XIncludeTransformer was sending extra startDocument and endDocument events.
+	  </action>
+
+      <action dev="simonetripodi" type="fix" issue="COCOON3-50">
+        [cocoon-sax] SAXException related to endPrefixMapping in XIncludeTransformer.
+      </action>
+
+      <action dev="ilgrosso" type="fix" issue="COCOON3-44">
+        [cocoon-stringtemplate] Upgrade to latest version of StringTemplate.
+      </action>
+
+      <action dev="simonetripodi" type="add">
+        [cocoon-sax] Added the SAX Pipeline DSL
+      </action>
+
+      <action dev="simonetripodi" type="add">
+        [cocoon-pipeline] Added the Pipeline DSL
+      </action>
+
+      <action dev="simonetripodi" type="update">
+        [cocoon-sax] XSLTTransformer and SchemaProcessorTransformer created resources have been cached.
+      </action>
+
+      <action dev="reinhard" type="fix">
+        [cocoon-pipeline] Add the timestamp value to the TimestampCacheKey hashcode.
+      </action>
+
+      <action dev="reinhard" type="add">
+        [cocoon-rest] Add the interface o.a.c.rest.controller.method.ConditionalGet. It requires the
+        implementation of the method #constructCacheKey() which returns a o.a.c.pipeline.caching.CacheKey.
+        This cache key is used to support conditional GET requests based on the ETag header.
+      </action>
+
+      <action dev="reinhard" type="update">
+        [cocoon-controller] The o.a.c.controller.SpringControllerComponent became a CachingPipelineComponent.
+        For that purpose the controller invocation was separated into a setup and an execution phase. If the
+        controller provides  a cache key after the setup, this is returned by the SpringControllerComponent
+        and the pipeline that embeds the controllers becomes cacheable.
+      </action>
+
+      <action dev="reinhard" type="add">
+        [cocoon-servlet] Add the method 'emulatedMethod()' to the request object. It supports the RubyOnRails
+        way of sending an alternative HTTP method to the server in cases where only GET and POST work reliably.
+        The method returns either the value of the request parameter '_method' or if not available, the actually
+        used HTTP method. In future versions of Cocoon this behavior might become the default behavior of Cocoon.
+	  </action>
+
+      <action dev="reinhard" type="update">
+        [all] Upgrade to cocoon-jnet-1.2.0
+      </action>
+
+      <action dev="reinhard" type="update">
+        [all] Upgrade all modules that have a dependency on Spring version 3.0.5.RELEASE
+      </action>
+    </release>
+    <release version="3.0.0-alpha-2" date="2010-01-07" description="released">
+      <action dev="cziegeler" type="add" issue="COCOON3-14">
+        [cocoon-pipeline] Add generics to the pipeline interface. With additionally introducing marker
+        interfaces for the component types (SAX, StAX, etc.) this allows compile time checks if all
+        components have the correct type when assembling the pipeline.
+      </action>
+      <action dev="reinhard" type="fix" issue="COCOON3-24">
+        [cocoon-pipeline] Cleanup PipelineComponent#finish(): It's not the concern of a pipeline component
+        to know about exceptions that happen somewhere in the pipeline.
+      </action>
+      <action dev="stevendolg" type="update">
+        [cocoon-pipeline] The CachingPipeline creates the CacheKey as the last step in the setup() phase
+        (instead of the first step of the execute() phase).
+      </action>
+      <action dev="reinhard" type="update">
+        [cocoon-pipeline] Use MurmurHash 2.0, a strong hashing algorithm, to implement the hashCode() method of cache keys.
+      </action>
+      <action dev="reinhard" type="add">
+        [cocoon-pipeline] Set an entity resolver on the SAX parser that returns an empty input source. This
+        prevents the SAX parser from accessing any URIs used in entities.
+      </action>
+      <action dev="stevendolg" type="add">
+        [cocoon-pipeline] Support expires caching: CachingPipeline and AsyncCachingPipeline can be configured to
+        be valid for a particular period. This 'expires caching' doesn't check if any of the pipeline components
+        would produce a valid result or not and it isn't even necessary that the pipeline components are cacheable
+        by implementing the org.apache.cocoon.pipeline.component.CachingPipelineComponent interface.
+      </action>
+      <action dev="stevendolg" type="add">
+        [cocoon-pipeline] Introduce an exception hierarchy for pipeline components
+        (ProcessingException and SetupException extend both PipelineException).
+      </action>
+      <action dev="reinhard" type="add" issue="COCOON3-2" due-to="Simone Tripodi">
+        [cocoon-pipeline] Add a SchemaProcessorTransformer that validates the SAX event
+        stream against an XML schema.
+      </action>
+      <action dev="stevendolg" type="fix" issue="COCOON3-23">
+        [cocoon-pipeline] StackOverflowError on CachingPipeline.setup(OutputStream).
+      </action>
+      <action dev="reinhard" type="fix">
+        [cocoon-pipeline] The interfaces CacheKey and CacheValue have to extend the java.io.Serializeable
+        interface in order to work with persistent cache implementations (e.g. EHCache).
+      </action>
+
+      <action dev="reinhard" type="add" issue="COCOON3-18">
+        [cocoon-stax] Provide basic component implementations of StAX pipeline components. Many thanks
+        go to Andreas Pieber, Jakob Spoerk, Kilian Matt and Michael Seydl, who provided this enhancement
+        as part of their studies at the Vienna University of Technology and to their assistant professor
+        Dr. Alexander Schatten.
+      </action>
+      <action dev="reinhard" type="add" issue="COCOON3-19">
+        [cocoon-stax] Provide wrappers to add SAX-components to StAX pipelines and
+        Adapters between StAX pipelines and SAX pipelines.
+      </action>
+      <action dev="reinhard" type="add" issue="COCOON3-27" due-to="Kilian Matt, Andreas Pieber">
+        [cocoon-stax] Java 5 support.
+      </action>
+
+      <action dev="reinhard" type="add">
+        [cocoon-sax] Add a XMLGenerator (constructors for File, InputStream, String, Node). It
+        is used with the pipeline API and merge it with the 'old' FileGenerator.
+      </action>
+      <action dev="reinhard" type="add">
+        [cocoon-sax] Add factory methods to o.a.c.sax.component.XMLSerializer to create properly
+        configured serializers for XML, XHTML and HTML4.
+      </action>
+      <action dev="reinhard" type="add" issue="COCOON3-3" due-to="Simone Tripodi">
+        [cocoon-sax] Add an XIncludeTransformer.
+      </action>
+      <action dev="reinhard" type="add" issue="COCOON3-6" due-to="Simone Tripodi">
+        [cocoon-sax] Enhance the reusability of the XSLTTransformer and support Xalan's XSLTC engine.
+      </action>
+      <action dev="stevendolg" type="fix" >
+        [cocoon-sax] Create a separate SAX module that contains all SAX specific classes.
+      </action>
+      <action dev="reinhard" type="fix" >
+        [cocoon-sax] Use SAX* for all SAX specific class names.
+      </action>
+      <action dev="reinhard" type="fix" issue="COCOON3-25">
+        [cocoon-sax] Remove AbstractXMLPipe because it does the same as the XMLConsumerAdapter.
+      </action>
+
+      <action dev="reinhard" type="update">
+        [cocoon-sitemap] Support {jexl:cocoon.request.ssf} expression to test if this is a call within
+        the Servlet-Service framework.
+      </action>
+      <action dev="reinhard" type="update">
+        [cocoon-sitemap] Remove the duplicated AttributesImpl. Use the implementation coming with the
+        org.apache.cocoon.xml:cocoon-xml library instead.
+      </action>
+      <action dev="reinhard" type="update">
+        [cocoon-sitemap] Update the WildcardMatcherHelper to the latest version of Cocoon 2.2.
+      </action>
+      <action dev="reinhard" type="add">
+        [cocoon-sitemap] Add a HTML serializer.
+      </action>
+      <action dev="reinhard" type="fix">
+        [cocoon-sitemap] Make junit-addons a test dependency.
+      </action>
+
+      <action dev="reinhard" type="fix">
+        [cocoon-controller] A controller pipeline component sets the content-type correctly.
+      </action>
+
+      <action dev="reinhard" type="add">
+        [cocoon-servlet] Move the request processing into a separate class org.apache.cocoon.servlet.RequestProcessor.
+        It also takes care of the suble differences whether a request is performed by the Servlet-Service framework
+        call or by a 'normal' external request. This was necessary to avoid code duplication when integrating with Wicket.
+      </action>
+      <action dev="reinhard" type="add">
+        [cocoon-servlet] Conditional GET (If-None-Match) support for ALL caching pipelines based on ETags. The ETag is the
+        hex representation of the a pipeline's cache key hashcode. Previously only cases where a cache key could be expressed
+        as a timestamp were supported (Last-Modified -> If-Modified-Since).
+      </action>
+      <action dev="reinhard" type="add">
+        [cocoon-servlet] Add org.apache.cocoon.servlet.util.ServletServiceUtils to use a Servlet-Service servlet
+        by reference and get an InputStream of a resource.
+      </action>
+      <action dev="reinhard" type="fix">
+        [cocoon-servlet] The ServletServiceSerializer sets the status code of the service it calls (instead of always sending 200 responses).
+      </action>
+      <action dev="stevendolg" type="fix" issue="COCOON3-46" due-to="Jos Snellings">
+        [cocoon-servlet] Fix potential NPE in URLConnectionUtils.closeQuietly(urlConnection)
+      </action>
+
+      <action dev="reinhard" type="add">
+        [cocoon-rest] Support for JAX-RS (JSR 311) controllers as an alternative to the Cocoon specific REST support.
+        The implementation is based on Jersey, the JSR311 reference implementation and the Jersey Spring extensions.
+      </action>
+      <action dev="stevendolg" type="fix">
+        [cocoon-rest] Don't lose the status-code produced by the called servlet-service in REST controller instances.
+      </action>
+      <action dev="stevendolg" type="fix" issue="COCOON3-32">
+        [cocoon-rest] Check if a REST controller is a proxy. If it is one, target object is used to apply the supported
+        annotations.
+      </action>
+      <action dev="stevendolg" type="update">
+        [cocoon-rest] Changed RestResponse to make it easier to implement specific response implementations.
+        Processing the responses no longer requires the SpringRESTController to actually know anything about
+        the actual implementation. RestResponse requires the implementation of the method execute(outputStream, parameters).
+      </action>
+      <action dev="reinhard" type="add">
+        [cocoon-rest] The ControllerContextHelper provides a static method to directly store a context
+        object in the request.
+      </action>
+      <action dev="reinhard" type="add">
+        [cocoon-rest] The @Inject annotation supports org.apache.cocoon.configuration.Settings and
+        javax.servlet.ServletContext injections.
+      </action>
+
+      <action dev="reinhard" type="add">
+        [cocoon-stringtemplate] The StringTemplateGenerator doesn't use controller context parameters as attributes anymore.
+        This allows its usage outside of servlet environments. For the use with a Cocoon controller implementation
+        org.apache.cocoon.stringtemplate.ControllerContextAwareStringTemplateGenerator was added. This generator is also
+        used as the bean 'generator:string-template' to be referred in sitemaps
+        (e.g. &lt;map:generator src=&quot;string-template&quot; src=&quot;...&quot; /&gt;)
+      </action>
+
+      <action dev="reinhard" type="add">
+        [cocoon-wicket] Provide a reader component that delegates to a Wicket application.
+      </action>
+      <action dev="reinhard" type="add">
+        [cocoon-wicket] Provide a Wicket RequestTargetURLCodingStrategy that is able to mount
+        a Cocoon sitemap.
+      </action>
+      <action dev="reinhard" type="add">
+        [cocoon-wicket] The samples to integrate Wicket into Cocoon are added to the cocoon-samples module.
+      </action>
+      <action dev="reinhard" type="add">
+        [cocoon-wicket] Introduce a new module (cocoon-samples-wicket-webapp) that contains the samples
+        that show how to integration Cocoon into Wicket.
+      </action>
+      <action dev="reinhard" type="add">
+        [cocoon-wicket] Introduce a new module that contains the Cocoon-Wicket integration (both directions).
+      </action>
+
+      <action dev="reinhard" type="add" due-to="Dariusz Luksza" issue="COCOON3-33">
+        [cocoon-monitoring] Support logging reconfiguration via JMX
+      </action>
+      <action dev="reinhard" type="add" due-to="Dariusz Luksza" issue="COCOON3-39">
+        [cocoon-monitoring] Provide a cache overview via JMX
+      </action>
+      <action dev="reinhard" type="add" due-to="Dariusz Luksza" issue="COCOON3-38">
+        [cocoon-monitoring] Provide information about Servlet-Services via JMX
+      </action>
+      <action dev="reinhard" type="add" due-to="Dariusz Luksza" issue="COCOON3-41">
+        [cocoon-monitoring] Provide statistical information via JMX
+      </action>
+
+      <action dev="reinhard" type="add" issue="COCOON3-40">
+        [cocoon-profiling] Support collection profiling information at runtime. This information
+        is stored by using EHCache and can be trieved as XML tree or PNG chart. Additionally
+        there is a Firebug plugin that displays this XML tree as part of the 'Network' tab.
+        Many thanks go to Michael Handler, Christoph Leiter, Stephan Teuschl, Andreas Pinter and
+        Sebastian Rosensteiner who provided this new module as part of their studies at the
+        Vienna University of Technology and to their assistant professor Dr. Alexander Schatten.
+      </action>
+
+      <action dev="reinhard" type="add">
+        [cocoon-optional] Add serializers (XML, XHTML, HTML) that use the Apache Cocoon Serializers Charset serializers
+        that don't rely on the JAXP API and circumvent some Xalan bugs.
+      </action>
+      <action dev="thorsten" type="add" issue="COCOON3-43" due-to="Bertil Chapuis">
+        [cocoon-optional] Add a SolrConsumer that creates and adds SolrDocuments to a Solr instance.
+      </action>
+      <action dev="reinhard" type="add" issue="COCOON3-7" due-to="Simone Tripodi">
+        [cocoon-optional] Add a formatting objects serializer using Apache FOP.
+      </action>
+      <action dev="stevendolg" type="add" issue="COCOON3-5" due-to="Simone Tripodi">
+        [cocoon-optional] Add an HTML to XHTML converter based on NekoHtml.
+      </action>
+      <action dev="reinhard" type="add" issue="COCOON3-4" due-to="Simone Tripodi">
+        [cocoon-optional] Add a BetwixtBeanGenerator that serializes Java classes following the Java Beans conventions.
+      </action>
+      <action dev="reinhard" type="add">
+        [cocoon-optional] Create a new module 'cocoon-optional', that contains all the stuff that
+        requires additional  3rd-party libraries that shouldn't become part of one of the Cocoon 3 core modules
+        (cocoon-pipeline, cocoon-sitemap, cocoon-servlet).
+      </action>
+
+      <action dev="reinhard" type="update">
+        [all] Update Cocoon Servlet-Service Framework Impl to 1.2.0
+      </action>
+      <action dev="reinhard" type="update">
+        [all] Update Cocoon Block Deployment to 1.1.0
+      </action>
+      <action dev="reinhard" type="update">
+        [all] Update Cocoon JNet to 1.1.0
+      </action>
+      <action dev="reinhard" type="update">
+        [all] Update Cocoon Spring Configurator to 2.1.0.
+      </action>
+      <action dev="reinhard" type="add" issue="COCOON3-21" due-to="Andreas Pieber">
+        [all] Add a bash script to run the Cocoon 3 build with all tests and checks activated.
+      </action>
+      <action dev="reinhard" type="update">
+        [all] Update to Spring 2.5.6 and AspectJ 1.6.1.
+      </action>
+      <action dev="reinhard" type="add" issue="COCOON3-1" due-to="Simone Tripodi">
+        [all] Set serialVersionUID on all serializeable classes.
+      </action>
+
+      <action dev="reinhard" type="add" issue="COCOON3-4" due-to="Solprovider">
+        [cocoon-docs] Improve wording of the Cocoon 3 homepage.
+      </action>
+      <action dev="reinhard" type="add" issue="COCOON3-4" due-to="Marc Driftmeyer">
+        [cocoon-docs] Improve wording and correct spelling mistakes of the Cocoon 3 homepage.
+      </action>
+    </release>
+
+    <release version="3.0.0-alpha-1" date="2008-12-18" description="released">
+      <action dev="reinhard" type="add">
+        Initial creation.
+      </action>
+    </release>
+  </body>
+</document>

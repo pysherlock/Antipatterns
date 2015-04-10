@@ -1,0 +1,41 @@
+ -----
+  Student project idea: Cocoon 3 monitoring
+ -----
+ -----
+ 2009
+ -----
+
+Student project idea: Cocoon 3 monitoring
+
+* Goal
+
+  Enable JMX monitoring for Cocoon 3 web applications
+
+* Description
+
+  Apart from the basic pipeline implementations Cocoon 3 also provides a framework for RESTful web applications based on XML sitemaps. 
+When monitoring a Cocoon application it would be very useful to 
+
+  * inspect the content of the used pipeline caches (cache keys, content)
+  
+  * be able remove cache entries or clear the whole cache (there might be more than one cache configured!)
+  
+  * get an overview of all available Servlet-Services (Spring beans), their connections and their mount-points
+  
+  * get an overview of all other Spring beans
+  
+  * inspect all settings
+  
+  * inspect and reconfigure the logging settings (log4j)
+
+* Deliverables
+  
+  * A separate module that exposes the described functionality via MBeans and works with JConsole.
+  
+  * It might be necessary to refactor the pipeline caching infrastructure in order to expose the required data and to be able to delete cache entries
+  
+  * It might be necessary to enhance the Cocoon Spring Configurator in order to support a reconfiguration of the logging framework.
+
+* Technologies
+
+  Cocoon 3, Cocoon Spring-Configurator, JMX, Spring 2.5, Log4j, Java  

@@ -1,0 +1,14 @@
+ -----
+Source Repository
+ -----
+ -----
+ 2009
+ -----
+ 
+Source Repository
+
+  Apache Cocoon uses Subversion to manage source code. See the {{{http://svnbook.red-bean.com/} Subversion book}} 
+and the Apache {{{http://www.apache.org/dev/version-control.html} instructions}} for using Subversion.
+
+  The Cocoon 3 source code is available at {{{http://svn.apache.org/repos/asf/cocoon/cocoon3/} http://svn.apache.org/repos/asf/cocoon/cocoon3/}} and can also be browsed 
+using the ViewVC interface at {{{http://svn.apache.org/viewvc/cocoon/cocoon3/} http://svn.apache.org/viewvc/cocoon/cocoon3/}}.

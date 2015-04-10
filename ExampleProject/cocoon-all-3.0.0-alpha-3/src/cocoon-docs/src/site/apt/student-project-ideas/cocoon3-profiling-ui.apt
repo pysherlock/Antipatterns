@@ -1,0 +1,34 @@
+ -----
+  Student project idea: Cocoon Profiling UI (Firebug plugin)
+ -----
+ -----
+ 2009
+ -----
+
+Student project idea: Cocoon Profiling UI (Firebug plugin)
+
+  Provide a Firebug plugin that shows request profiling information.
+
+* Description
+
+  The goal of this project is the development of a {{{http://getfirebug.com/} Firebug}} plugin that
+shows the information provided by the {{{cocoon3-profiling.html} Cocoon 3 Profiling}} module next to the
+request and response tabs.
+
+* Deliverables
+
+  * Firebug plugin
+  
+  * Provide an installable release artifact of the plugin created as part of the Cocoon 3 build process.
+
+* Technologies
+
+  Firefox plugins, Firebug plugin, Javascript, XML, RESTful webservices  
+
+* Related ideas
+
+  This UI relies on web services provided by the <<<cocoon-profiling>>> module. In the case that the UI is
+being developed before the module is available, a set of example XML files representing the output of the
+webservices will be provided. See the {{{cocoon3-profiling.html} Cocoon 3 Profiling}} proposal in order to
+get an idea of the contract.
+  

@@ -1,0 +1,99 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/* in this section, the heigth and width of the two trees are described 
+		the first tree is the left tree, the "real" tree, followed by its two columns,
+		the second tree is the tree (or box) displaying the arguments */
+
+#profilingtree {
+	height: 200px;
+	width: 800px;
+}
+
+#argumenttree-col1 {
+	width: 200px;
+}
+
+#argumenttree-col2 {
+	width: 1500px;
+}
+
+#argumenttree {
+	height: 200px;
+	width: 600px;
+}
+
+#profilingtree-col1 {
+	width: 665px;
+}
+
+#profilingtree-col2 {
+	width: 120px;
+}
+
+
+/* in this section, the images in the second tree are referenced */
+
+treechildren::-moz-tree-image(argtree_argument)
+  { list-style-image: url("chrome://cocoon3profiling/skin/argument.png");
+  	margin-right: 3px;
+  }
+treechildren::-moz-tree-image(argtree_return-value)
+  { list-style-image: url("chrome://cocoon3profiling/skin/return.png");
+  	margin-right: 3px;
+  }   
+treechildren::-moz-tree-image(argtree_exception)
+  { list-style-image: url("chrome://cocoon3profiling/skin/exception.png");
+  	margin-right: 3px;
+  }
+treechildren::-moz-tree-image(argtree_property)
+  { list-style-image: url("chrome://cocoon3profiling/skin/property.png");
+  	margin-right: 3px;
+  }
+treechildren::-moz-tree-image(argtree_profiler)
+  { list-style-image: url("chrome://cocoon3profiling/skin/profiler.png");
+  	margin-right: 3px;
+  }
+
+/* in this section, the images in the first tree are referenced */
+
+treechildren::-moz-tree-image(invocation)
+  { list-style-image: url("chrome://cocoon3profiling/skin/invocation.png");
+  	margin-right: 3px;
+  }   
+treechildren::-moz-tree-image(servlet)
+  { list-style-image: url("chrome://cocoon3profiling/skin/servlet.png"); 
+  	margin-right: 3px;
+  } 
+treechildren::-moz-tree-image(sitemap)
+  { list-style-image: url("chrome://cocoon3profiling/skin/sitemap.png"); 
+  	margin-right: 3px;
+  }   
+treechildren::-moz-tree-image(node)
+  { list-style-image: url("chrome://cocoon3profiling/skin/node.png"); 
+  	margin-right: 3px;
+  } 
+treechildren::-moz-tree-image(component)
+  { list-style-image: url("chrome://cocoon3profiling/skin/component.png"); 
+  	margin-right: 3px;
+  }
+
+treechildren::-moz-tree-image(pipeline)
+  { list-style-image: url("chrome://cocoon3profiling/skin/pipeline.png"); 
+  	margin-right: 3px;
+  }
+ 

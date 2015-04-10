@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!--
+		Licensed to the Apache Software Foundation (ASF) under one or more
+		contributor license agreements. See the NOTICE file distributed with
+		this work for additional information regarding copyright ownership.
+		The ASF licenses this file to you under the Apache License, Version
+		2.0 (the "License"); you may not use this file except in compliance
+		with the License. You may obtain a copy of the License at
+
+		http://www.apache.org/licenses/LICENSE-2.0 Unless required by
+		applicable law or agreed to in writing, software distributed under the
+		License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+		CONDITIONS OF ANY KIND, either express or implied. See the License for
+		the specific language governing permissions and limitations under the
+		License.
+	-->
+
+<wsdl:definitions name="CustomersWrapperServiceService"
+	targetNamespace="http://infosys.tuwien.ac.at/ait08/ass1/dto/customers"
+	xmlns:ns1="http://schemas.xmlsoap.org/soap/http" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+	xmlns:tns="http://infosys.tuwien.ac.at/ait08/ass1/dto/customers"
+	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<wsdl:types>
+		<xs:schema attributeFormDefault="unqualified"
+			elementFormDefault="unqualified"
+			targetNamespace="http://infosys.tuwien.ac.at/ait08/ass1/dto/customers"
+			xmlns:tns="http://infosys.tuwien.ac.at/ait08/ass1/dto/customers"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema">
+			<xs:element name="Telephone_Number" type="tns:telephoneNumber" />
+			<xs:element name="adresse" type="tns:address" />
+			<xs:element name="customer" type="tns:customer" />
+			<xs:element name="get_customer" type="tns:get_customer" />
+			<xs:element name="get_customerResponse" type="tns:get_customerResponse" />
+			<xs:element name="update_customer" type="tns:update_customer" />
+			<xs:element name="update_customerResponse" type="tns:update_customerResponse" />
+			<xs:complexType name="update_customer">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="toUpdate" type="tns:customer" />
+				</xs:sequence>
+			</xs:complexType>
+			<xs:complexType name="customer">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="address" type="tns:address" />
+					<xs:element minOccurs="0" name="id" type="xs:string" />
+					<xs:element minOccurs="0" name="name" type="xs:string" />
+					<xs:element name="provider" type="xs:long" />
+					<xs:element maxOccurs="unbounded" minOccurs="0"
+						name="telephoneNumbers" nillable="true" type="tns:telephoneNumber" />
+				</xs:sequence>
+			</xs:complexType>
+			<xs:complexType name="address">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="area_code" type="xs:string" />
+					<xs:element minOccurs="0" name="city" type="xs:string" />
+					<xs:element name="door" type="xs:int" />
+					<xs:element name="house" type="xs:int" />
+					<xs:element minOccurs="0" name="id" type="xs:string" />
+					<xs:element minOccurs="0" name="street" type="xs:string" />
+				</xs:sequence>
+			</xs:complexType>
+			<xs:complexType name="telephoneNumber">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="area_code" type="xs:string" />
+					<xs:element minOccurs="0" name="country_code" type="xs:string" />
+					<xs:element name="dbId" type="xs:long" />
+					<xs:element minOccurs="0" name="id" type="xs:string" />
+					<xs:element minOccurs="0" name="number" type="xs:string" />
+				</xs:sequence>
+			</xs:complexType>
+			<xs:complexType name="update_customerResponse">
+				<xs:sequence />
+			</xs:complexType>
+			<xs:complexType name="get_customer">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="id" type="xs:string" />
+				</xs:sequence>
+			</xs:complexType>
+			<xs:complexType name="get_customerResponse">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="existing_customer" type="tns:customer" />
+				</xs:sequence>
+			</xs:complexType>
+			<xs:element name="InvalidCustomerFault" type="tns:InvalidCustomerFault" />
+			<xs:complexType name="InvalidCustomerFault">
+				<xs:sequence />
+			</xs:complexType>
+		</xs:schema>
+	</wsdl:types>
+	<wsdl:message name="get_customerResponse">
+		<wsdl:part element="tns:get_customerResponse" name="parameters">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="InvalidCustomerException">
+		<wsdl:part element="tns:InvalidCustomerFault" name="InvalidCustomerException">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="get_customer">
+		<wsdl:part element="tns:get_customer" name="parameters">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="update_customer">
+		<wsdl:part element="tns:update_customer" name="parameters">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="update_customerResponse">
+		<wsdl:part element="tns:update_customerResponse" name="parameters">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:portType name="CustomersWrapperService">
+		<wsdl:operation name="update_customer">
+			<wsdl:input message="tns:update_customer" name="update_customer">
+			</wsdl:input>
+			<wsdl:output message="tns:update_customerResponse" name="update_customerResponse">
+			</wsdl:output>
+			<wsdl:fault message="tns:InvalidCustomerException" name="InvalidCustomerException">
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="get_customer">
+			<wsdl:input message="tns:get_customer" name="get_customer">
+			</wsdl:input>
+			<wsdl:output message="tns:get_customerResponse" name="get_customerResponse">
+			</wsdl:output>
+			<wsdl:fault message="tns:InvalidCustomerException" name="InvalidCustomerException">
+			</wsdl:fault>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="CustomersWrapperServiceServiceSoapBinding"
+		type="tns:CustomersWrapperService">
+		<soap:binding style="document"
+			transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="update_customer">
+			<soap:operation soapAction="" style="document" />
+			<wsdl:input name="update_customer">
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output name="update_customerResponse">
+				<soap:body use="literal" />
+			</wsdl:output>
+			<wsdl:fault name="InvalidCustomerException">
+				<soap:fault name="InvalidCustomerException" use="literal" />
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="get_customer">
+			<soap:operation soapAction="" style="document" />
+			<wsdl:input name="get_customer">
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output name="get_customerResponse">
+				<soap:body use="literal" />
+			</wsdl:output>
+			<wsdl:fault name="InvalidCustomerException">
+				<soap:fault name="InvalidCustomerException" use="literal" />
+			</wsdl:fault>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="CustomersWrapperServiceService">
+		<wsdl:port binding="tns:CustomersWrapperServiceServiceSoapBinding"
+			name="CustomersPT">
+			<soap:address location="http://localhost:9085/customersService" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

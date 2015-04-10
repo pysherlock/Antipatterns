@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+  
+  http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License.
+-->
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+"http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter id="introduction">
+  <title>Introduction</title>
+  
+  <section id="introduction.why-cocoon3">
+    <title>Why Cocoon 3 - Motivation</title>
+    <para>
+      The main idea behind Cocoon is the concept of pipelines. Cocoon 1.x and 2.x
+      applied this idea with a focus on web applications.
+      But sometimes pipelines would be useful although you don't develop a web application.
+      Those former Cocoon versions don't really help you in that case. 
+    </para>
+    <para>
+      In contrast, Cocoon 3 follows a layered approach so that its basic module - 
+      the pipeline module - can be used from within any Java environment without 
+      requiring you adding a huge stack of dependencies. 
+    </para>
+    <para>
+      On top of this, Cocoon 3 has the goal to make the development of 
+      RESTful web services and web applications a simple task.
+    </para>
+  </section>
+  
+  <section id="introduction.previous-versions">
+    <title>Relationship to previous versions</title>
+    <para>
+      Cocoon 3 has been built completely from scratch and doesn't have any dependencies
+      on Cocoon 2.x or 1.x. 
+    </para>
+  </section>
+  
+  <section id="introduction.requirements">
+    <title>Requirements</title>
+    <para>
+      Cocoon 3 requires Java 5 or higher.
+    </para>
+  </section>
+</chapter>

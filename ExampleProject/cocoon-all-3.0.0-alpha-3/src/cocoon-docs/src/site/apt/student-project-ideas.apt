@@ -1,0 +1,25 @@
+ -----
+  Student project ideas
+ -----
+ -----
+ 2009
+ -----
+
+Student project ideas
+
+  If you are a student and you are interested in working together 
+with us on improving Cocoon 3, here is a list of project ideas that 
+should help you to work on a project proposal: 
+
+  * {{{student-project-ideas/cocoon3-monitoring.html} Cocoon Monitoring}} (proposed as GSoC2009 idea - 
+    see {{{http://wiki.apache.org/general/SummerOfCode2009} the Apache GSoC wiki}})
+  
+  * {{{student-project-ideas/cocoon3-profiling.html} Cocoon Profiling}} [already assigned]
+  
+  * {{{student-project-ideas/cocoon3-profiling-ui.html} Cocoon Profiling UI}} [already assigned]
+
+  []
+  
+  For {{{http://code.google.com/soc/} Google Summer of Code}} applicants it's crucial 
+that you contact us as soon as possible via our 
+{{{mail-lists.html} developers mailing list}}.  

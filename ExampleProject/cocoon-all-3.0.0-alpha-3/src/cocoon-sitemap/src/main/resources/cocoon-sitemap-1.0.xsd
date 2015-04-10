@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+  
+  http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<!-- $Id: cocoon-sitemap-1.0.xsd 811475 2009-09-04 16:33:16Z reinhard $ -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://apache.org/cocoon/sitemap"
+  xmlns:tns="http://apache.org/cocoon/sitemap" xmlns="http://apache.org/cocoon/sitemap"
+  elementFormDefault="qualified">
+
+  <xsd:annotation>
+    <xsd:documentation>Schema for the Cocoon 3 sitemap language.</xsd:documentation>
+  </xsd:annotation>
+
+  <xsd:element name="sitemap">
+    <xsd:annotation>
+      <xsd:documentation>This is the root element of a sitemap.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="pipelines" minOccurs="1" maxOccurs="1" />
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="pipelines">
+    <xsd:annotation>
+      <xsd:documentation>This element contains all pipeline definition.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="pipeline" minOccurs="0" maxOccurs="unbounded" />
+        <xsd:element ref="handle-errors" minOccurs="0" maxOccurs="1" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="pipeline">
+    <xsd:annotation>
+      <xsd:documentation>
+        A pipeline produces a binary output stream. There are several implementations available that deal with cachinig.
+      </xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded" />
+        <xsd:group ref="pipeline-content" />
+        <xsd:element ref="handle-errors" minOccurs="0" maxOccurs="1" />
+      </xsd:sequence>
+      <xsd:attribute name="type" type="xsd:string" use="optional">
+        <xsd:annotation>
+          <xsd:documentation>
+            Available implementations are: noncaching (no caching at all), caching (if all pipeline components would
+            generate the same result, the response is taken from a cache), async-caching (the response is always taken
+            from a cache but if one of the pipeline components would produce a different result, the pipeline is being
+            invoked in a separate thread and the result updates the cached response.)
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:attribute>
+      <xsd:attribute name="jmx-group-name" type="xsd:string" use="optional">
+        <xsd:annotation>
+          <xsd:documentation>
+            Name of group in with this cache entry's would be publish.
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="parameter">
+    <xsd:complexType>
+      <xsd:attribute name="name" type="xsd:string" use="required">
+        <xsd:annotation>
+          <xsd:documentation>The name of a parameter that is being passed to a pipeline component.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:attribute>
+      <xsd:attribute name="value" type="xsd:string" use="required">
+        <xsd:annotation>
+          <xsd:documentation>The parameter value that is being passed to a pipeline component.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:group name="pipeline-content">
+    <xsd:sequence>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded">
+        <xsd:element ref="match" />
+        <xsd:element ref="select" />
+        <xsd:element ref="generate" />
+        <xsd:element ref="transform" />
+        <xsd:element ref="serialize" />
+        <xsd:element ref="read" />
+        <xsd:element ref="act" />
+        <xsd:any namespace="##other" processContents="strict" />
+      </xsd:choice>
+    </xsd:sequence>
+  </xsd:group>
+
+  <xsd:element name="match">
+    <xsd:annotation>
+      <xsd:documentation>
+        If the passed expression (one of pattern, wildcard, contains, equals, starts-with, ends-with) matches the value
+        attribute, the sitemap execution continues within the matches element. The default value of the 'value'
+        attribute is the request URI. A matcher can return a map or null to the sitemap. If a map is returned, the
+        execution of the sitemap continues within the match element. If null is returned, the execution continues
+        outside.
+      </xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded" />
+        <xsd:group ref="pipeline-content" />
+      </xsd:sequence>
+      <xsd:attribute name="value" type="xsd:string" use="optional">
+        <xsd:annotation>
+          <xsd:documentation>The test value. The default is the request URI.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:attribute>
+      <xsd:attributeGroup ref="expression-attrs" />
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="select">
+    <xsd:annotation>
+      <xsd:documentation>
+        The select element is used in conjunction with when and otherwise. This allows for
+        testing against multipe values.
+      </xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded" />
+        <xsd:element ref="when" minOccurs="0" maxOccurs="unbounded" />
+        <xsd:element ref="otherwise" minOccurs="0" maxOccurs="1" />
+      </xsd:sequence>
+      <xsd:attribute name="value" type="xsd:string" use="optional">
+        <xsd:annotation>
+          <xsd:documentation>The test value. The default is the request URI.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="when">
+    <xsd:annotation>
+      <xsd:documentation>
+        Each of the when elements is tested. When the first one matches, the sitemap execution continues within the
+        element.
+      </xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:group ref="pipeline-content" />
+      </xsd:sequence>
+      <xsd:attributeGroup ref="expression-attrs" />
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="otherwise">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:group ref="pipeline-content" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:attributeGroup name="expression-attrs">
+    <xsd:attribute name="pattern" type="xsd:string" use="optional">
+      <xsd:annotation>
+        <xsd:documentation>
+          A test string that can contain wildcards: * matches any character but not slashes ** matches any character
+          including slahses
+        </xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="regexp" type="xsd:string" use="optional">
+      <xsd:annotation>
+        <xsd:documentation>A regular expression as expression.</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="wildcard" type="xsd:string" use="optional">
+      <xsd:annotation>
+        <xsd:documentation>
+          A test string that can contain wildcards: * matches any character but not slashes ** matches any character
+          including slashes
+        </xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="equals" type="xsd:string" use="optional">
+      <xsd:annotation>
+        <xsd:documentation>The expression equals the test value.</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="contains" type="xsd:string" use="optional">
+      <xsd:annotation>
+        <xsd:documentation>The test value contains the passed string.</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="starts-with" type="xsd:string" use="optional">
+      <xsd:annotation>
+        <xsd:documentation>The test value starts with the passed string.</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="ends-with" type="xsd:string" use="optional">
+      <xsd:annotation>
+        <xsd:documentation>The test value ends with the passed string.</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+  </xsd:attributeGroup>
+
+  <xsd:element name="generate">
+    <xsd:annotation>
+      <xsd:documentation>A component that produces the initial pipeline content.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded" />
+      </xsd:sequence>
+      <xsd:attribute name="src" type="xsd:string" use="optional">
+        <xsd:annotation>
+          <xsd:documentation>A URL for the generator.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:attribute>
+      <xsd:attribute name="type" type="xsd:string" use="optional">
+        <xsd:annotation>
+          <xsd:documentation>
+            The type of the generator. The default generator is the file generator that produces SAX events.
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="transform">
+    <xsd:annotation>
+      <xsd:documentation>A component that tranforms the pipeline content from one form to another.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded" />
+      </xsd:sequence>
+      <xsd:attribute name="src" type="xsd:string" use="optional">
+        <xsd:annotation>
+          <xsd:documentation>A URL for the transformer.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:attribute>
+      <xsd:attribute name="type" type="xsd:string" use="optional">
+        <xsd:annotation>
+          <xsd:documentation>
+            The type of the transformer. The default transformer is the XSLT transformer that uses an XSLT stylesheet to
+            transform XML.
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="serialize">
+    <xsd:annotation>
+      <xsd:documentation>A component that serialzes the pipeline content to an output stream.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded" />
+      </xsd:sequence>
+      <xsd:attribute name="type" type="xsd:string" use="optional">
+        <xsd:annotation>
+          <xsd:documentation>
+            The type of the serializer. The default transformer is the XML serializer.
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:attribute>
+      <xsd:attribute name="status-code" type="xsd:string" use="optional">
+        <xsd:annotation>
+          <xsd:documentation>
+            The Status-Code element is a 3-digit integer result code of the attempt to understand and satisfy the
+            request. See http://www.w3.org/Protocols/rfc2616/rfc2616-sec6.html#sec6.1.1.
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="read">
+    <xsd:annotation>
+      <xsd:documentation>A component that directly produces an output stream.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded" />
+      </xsd:sequence>
+      <xsd:attribute name="src" type="xsd:string" use="optional">
+        <xsd:annotation>
+          <xsd:documentation>A URL for the transformer.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:attribute>
+      <xsd:attribute name="type" type="xsd:string" use="optional">
+        <xsd:annotation>
+          <xsd:documentation>The type of the reader. The default reader is the file reader.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:attribute>
+      <xsd:attribute name="status-code" type="xsd:string" use="optional">
+        <xsd:annotation>
+          <xsd:documentation>
+            The Status-Code element is a 3-digit integer result code of the attempt to understand and satisfy the
+            request. See http://www.w3.org/Protocols/rfc2616/rfc2616-sec6.html#sec6.1.1.
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:attribute>
+      <xsd:attribute name="mime-type" type="xsd:string" use="optional">
+        <xsd:annotation>
+          <xsd:documentation>The mime-type of the pipeline result.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="act">
+    <xsd:annotation>
+      <xsd:documentation>
+        An action is processed before the pipeline is being invoked and can return a map to the sitemap. If null is
+        returned, the sitemap is being executed after this element.
+      </xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded" />
+        <xsd:group ref="pipeline-content" />
+      </xsd:sequence>
+      <xsd:attribute name="type" type="xsd:string" use="optional">
+        <xsd:annotation>
+          <xsd:documentation>The type of the action.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="handle-errors">
+    <xsd:annotation>
+      <xsd:documentation>
+        If an errors occurs while a pipeline is being processed, the sitemap execution continues within this element.
+      </xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:group ref="pipeline-content" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

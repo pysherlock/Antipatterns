@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License.
+ -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:configurator="http://cocoon.apache.org/schema/configurator"
+  xmlns:aop="http://www.springframework.org/schema/aop"  
+  
+  xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                      http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd  
+                      http://cocoon.apache.org/schema/configurator http://cocoon.apache.org/schema/configurator/cocoon-configurator-1.0.1.xsd">
+
+  <bean id="exporter" class="org.springframework.jmx.export.MBeanExporter">
+    <property name="assembler" ref="org.apache.cocoon.monitoring.assembler" />
+    <property name="namingStrategy" ref="org.apache.cocoon.monitoring.namingStrategy" />
+    <property name="autodetect" value="true" />
+  </bean>
+
+  <bean id="org.apache.cocoon.monitoring.assembler" class="org.springframework.jmx.export.assembler.MetadataMBeanInfoAssembler">
+    <property name="attributeSource" ref="org.apache.cocoon.monitoring.jmxAttributeSource" />
+  </bean>
+
+  <bean id="org.apache.cocoon.monitoring.namingStrategy" class="org.springframework.jmx.export.naming.MetadataNamingStrategy">
+    <property name="attributeSource" ref="org.apache.cocoon.monitoring.jmxAttributeSource" />
+  </bean>
+  
+  <bean id="org.apache.cocoon.monitoring.jmxAttributeSource"
+    class="org.springframework.jmx.export.annotation.AnnotationJmxAttributeSource" />
+  
+  <bean id="org.apache.cocoon.monitoring.reconfiguration.Log4JReconfigurator"
+    class="org.apache.cocoon.monitoring.reconfiguration.Log4JReconfigurator" scope="singleton">
+    <property name="settings" ref="org.apache.cocoon.configuration.Settings" />
+  </bean>
+  
+  <bean id="org.apache.cocoon.monitoring.reconfiguration.JmxSpringSettings" class="org.apache.cocoon.monitoring.reconfiguration.JmxSpringSettings">
+    <constructor-arg index="0" ref="org.apache.cocoon.configuration.Settings" />
+  </bean>
+
+  <bean id="org.apache.cocoon.monitoring.servletservice.ServletServiceMonitorInitializer"
+    class="org.apache.cocoon.monitoring.servletservice.ServletServiceMonitorInitializer" >
+    <constructor-arg index="0">
+      <configurator:bean-map type="javax.servlet.Servlet" />
+    </constructor-arg>
+    <constructor-arg ref="exporter" index="1"/>
+  </bean>
+  <bean id="org.apache.cocoon.monitoring.cache.CacheMonitorInitializer" class="org.apache.cocoon.monitoring.cache.CacheMonitorInitializer">
+    <constructor-arg index="0">
+      <configurator:bean-map type="org.apache.cocoon.pipeline.caching.Cache" />
+    </constructor-arg>
+    <constructor-arg ref="exporter" index="1" />
+  </bean>
+  
+  <bean id="org.apache.cocoon.monitoring.cache.CacheBurstActions" class="org.apache.cocoon.monitoring.cache.CacheBurstActions">
+    <constructor-arg index="0">
+      <configurator:bean-map type="org.apache.cocoon.pipeline.caching.Cache" />
+    </constructor-arg>
+  </bean>
+
+  <bean id="org.apache.cocoon.monitoring.cache.entry.CacheEntrysMonitorInitializer" class="org.apache.cocoon.monitoring.cache.entry.CacheEntrysMonitorInitializer">
+    <constructor-arg index="0">
+        <configurator:bean-map type="org.apache.cocoon.pipeline.caching.Cache" />
+    </constructor-arg>
+    <constructor-arg ref="exporter" index="1" />
+  </bean>
+  
+  <!--  configuration for statistics submodule -->
+  <bean id="org.apache.cocoon.monitoring.statistics.aspects.ServletHitCountStatisticsAspect" class="org.apache.cocoon.monitoring.statistics.aspects.ServletHitCountStatisticsAspect" />
+  
+  <bean id="org.apache.cocoon.monitoring.statistics.aspects.UrlHitCountStatisticsAspect" class="org.apache.cocoon.monitoring.statistics.aspects.UrlHitCountStatisticsAspect" />
+  
+  <bean id="org.apache.cocoon.monitoring.statistics.aspects.CacheStatisticsAspect" class="org.apache.cocoon.monitoring.statistics.aspects.CacheStatisticsAspect" />
+  
+  <bean id="org.apache.cocoon.monitoring.statistics.StatisticsInitializer" class="org.apache.cocoon.monitoring.statistics.StatisticsInitializer">
+    <constructor-arg index="0">
+      <configurator:bean-map type="org.apache.cocoon.monitoring.statistics.StatisticsEnabled" />
+    </constructor-arg>
+    <constructor-arg ref="exporter" index="1" />
+  </bean>
+  
+  <aop:aspectj-autoproxy/>
+</beans>

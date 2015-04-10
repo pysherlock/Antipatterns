@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License.
+ -->
+<!-- $Id: pom.xml 1133858 2011-06-09 13:21:51Z simonetripodi $ -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <packaging>jar</packaging>
+
+  <parent>
+    <groupId>org.apache.cocoon.parent</groupId>
+    <artifactId>cocoon-parent</artifactId>
+    <version>3.0.0-alpha-3</version>
+    <relativePath>../parent/pom.xml</relativePath>
+  </parent>
+
+  <groupId>org.apache.cocoon.sample</groupId>
+  <artifactId>cocoon-sample</artifactId>
+  <version>3.0.0-alpha-3</version>
+
+  <name>Apache Cocoon 3: Sample</name>
+  <description>Cocoon 3 samples.</description>
+
+  <dependencies>
+    <!-- Cocoon libraries -->
+    <dependency>
+      <groupId>org.apache.cocoon.rest</groupId>
+      <artifactId>cocoon-rest</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.cocoon.stringtemplate</groupId>
+      <artifactId>cocoon-stringtemplate</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.cocoon.wicket</groupId>
+      <artifactId>cocoon-wicket</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.cocoon.profiling</groupId>
+      <artifactId>cocoon-profiling</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.cocoon.monitoring</groupId>
+      <artifactId>cocoon-monitoring</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <scope>provided</scope>
+    </dependency>
+
+    <!-- Optional libraries -->
+    <dependency>
+      <groupId>xalan</groupId>
+      <artifactId>xalan</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.cocoon.optional</groupId>
+      <artifactId>cocoon-optional</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.xmlgraphics</groupId>
+      <artifactId>fop</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.cocoon</groupId>
+      <artifactId>cocoon-serializers-charsets</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.jersey</groupId>
+      <artifactId>jersey-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.jersey</groupId>
+      <artifactId>jersey-server</artifactId>
+    </dependency>
+
+    <!--  Logging dependencies -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+
+    <!--  Test dependencies -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-eclipse-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.cocoon</groupId>
+        <artifactId>cocoon-maven-plugin</artifactId>
+        <configuration>
+          <webappProfile>ssf</webappProfile>
+          <customWebappDirectory>rcl-config</customWebappDirectory>
+        </configuration>
+        <executions>
+          <execution>
+            <phase>compile</phase>
+            <goals>
+              <goal>prepare</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.mortbay.jetty</groupId>
+        <artifactId>maven-jetty-plugin</artifactId>
+        <configuration>
+          <connectors>
+            <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+              <port>8888</port>
+              <maxIdleTime>30000</maxIdleTime>
+            </connector>
+          </connectors>
+          <webAppSourceDirectory>${project.build.directory}/rcl/webapp</webAppSourceDirectory>
+          <contextPath>/</contextPath>
+          <systemProperties>
+            <systemProperty>
+              <name>org.apache.cocoon.mode</name>
+              <value>dev</value>
+            </systemProperty>
+          </systemProperties>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <archive>
+            <manifestEntries>
+              <Cocoon-Block-Name>${project.artifactId}</Cocoon-Block-Name>
+            </manifestEntries>
+          </archive>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
