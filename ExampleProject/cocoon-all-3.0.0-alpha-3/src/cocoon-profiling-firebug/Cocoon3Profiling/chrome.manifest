@@ -1,3 +1,0 @@
-content cocoon3profiling chrome/content/cocoon3profiling/ xpcnativewrappers=no
-overlay chrome://firebug/content/firebugOverlay.xul         chrome://cocoon3profiling/content/cocoon3profiling.xul
-skin    cocoon3profiling  classic/1.0 chrome/skin/classic/

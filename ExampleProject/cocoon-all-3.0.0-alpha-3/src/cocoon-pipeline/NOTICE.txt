@@ -1,9 +1,0 @@
-Apache Cocoon
-Copyright 1999-2010 The Apache Software Foundation.
-
-This product includes software developed at
-The Apache Software Foundation (http://www.apache.org/).
-
-This software contains a Java MurmurHash 2.0 implementation by 
-Andrzej Bialecki which is based on the original C version by Austin Appleby 
-(http://murmurhash.googlepages.com/).
