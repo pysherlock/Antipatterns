@@ -1,0 +1,15 @@
+
+29 solutions for AntiSingleton in src in 471 ms.
+49 solutions for Blob in src in 4010 ms.
+38 solutions for ClassDataShouldBePrivate in src in 24 ms.
+111 solutions for ComplexClass in src in 620 ms.
+0 solutions for FunctionalDecomposition in src in 514 ms.
+0 solutions for LargeClass in src in 45 ms.
+77 solutions for LazyClass in src in 51 ms.
+0 solutions for LongMethod in src in 13 ms.
+105 solutions for LongParameterList in src in 69 ms.
+60 solutions for MessageChains in src in 321 ms.
+252 solutions for RefusedParentBequest in src in 323 ms.
+0 solutions for SpaghettiCode in src in 49 ms.
+5 solutions for SpeculativeGenerality in src in 21 ms.
+3 solutions for SwissArmyKnife in src in 15 ms.

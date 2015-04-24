@@ -1,0 +1,1706 @@
+
+ * $Id: Version.java,v 1.12 2004/02/26 04:00:47 zongaro Exp $ |	 * $Id$
+There is NO effctive change in this class
+
+ * $Id: XSLTProcessorApplet.java,v 1.21 2004/02/11 05:22:02 m |	 * $Id: XSLTProcessorApplet.java,v 1.23 2004/12/15 17:35:30 j
+Effctive changed lines in this class: 1
+
+ * $Id: ExpressionVisitor.java,v 1.7 2004/02/11 05:26:23 minc |	 * $Id: ExpressionVisitor.java,v 1.8 2005/01/23 00:10:05 mcna
+Effctive changed lines in this class: 17
+
+ * $Id: ExtensionHandler.java,v 1.21 2004/02/23 10:29:34 arun |	 * $Id: ExtensionHandler.java,v 1.22 2005/01/23 00:10:05 mcna
+There is NO effctive change in this class
+
+ * $Id: ExtensionHandlerExsltFunction.java,v 1.8 2004/02/11 2 |	 * $Id: ExtensionHandlerExsltFunction.java,v 1.9 2005/01/23 0
+There is NO effctive change in this class
+
+ * $Id: ExtensionHandlerGeneral.java,v 1.23 2004/02/23 10:29: |	 * $Id: ExtensionHandlerGeneral.java,v 1.26 2005/01/23 00:10:
+There is NO effctive change in this class
+
+ * $Id: ExtensionHandlerJavaClass.java,v 1.19 2004/02/11 05:2 |	 * $Id: ExtensionHandlerJavaClass.java,v 1.22 2005/05/30 17:3
+Effctive changed lines in this class: 15
+
+ * $Id: ExtensionHandlerJavaPackage.java,v 1.19 2004/02/11 05 |	 * $Id: ExtensionHandlerJavaPackage.java,v 1.22 2005/05/30 17
+Effctive changed lines in this class: 60
+
+ * $Id: MethodResolver.java,v 1.31 2004/02/11 05:26:23 mincha |	 * $Id: MethodResolver.java,v 1.32 2004/12/15 17:35:30 jycli 
+Effctive changed lines in this class: 24
+
+ * $Id: ObjectFactory.java,v 1.2 2004/02/23 10:29:34 aruny Ex |	 * $Id: ObjectFactory.java,v 1.5 2004/08/17 18:11:25 jycli Ex
+Effctive changed lines in this class: 7
+
+ * $Id: XSLProcessorContext.java,v 1.18 2004/02/11 05:26:23 m |	 * $Id: XSLProcessorContext.java,v 1.19 2005/01/23 00:10:05 m
+Effctive changed lines in this class: 38
+
+ * $Id: ExsltCommon.java,v 1.10 2004/02/11 17:56:36 minchau E |	 * $Id: ExsltCommon.java,v 1.11 2005/01/23 00:16:04 mcnamara 
+Effctive changed lines in this class: 1
+
+ * $Id: ExsltDatetime.java,v 1.13 2004/02/11 17:56:36 minchau |	 * $Id: ExsltDatetime.java,v 1.16 2005/07/15 21:45:11 mcnamar
+There is NO effctive change in this class
+
+ * $Id: Extensions.java,v 1.29 2004/02/23 10:29:34 aruny Exp  |	 * $Id: Extensions.java,v 1.30 2005/01/23 00:16:04 mcnamara E
+Effctive changed lines in this class: 9
+
+ * $Id: NodeInfo.java,v 1.6 2004/02/11 17:56:36 minchau Exp $ |	 * $Id: NodeInfo.java,v 1.7 2005/01/23 00:16:04 mcnamara Exp 
+There is NO effctive change in this class
+
+ * $Id: ObjectFactory.java,v 1.2 2004/02/23 10:29:34 aruny Ex |	 * $Id: ObjectFactory.java,v 1.5 2004/08/17 18:14:49 jycli Ex
+There is NO effctive change in this class
+
+ * $Id: PipeDocument.java,v 1.8 2004/02/11 17:56:36 minchau E |	 * $Id: PipeDocument.java,v 1.9 2004/12/13 19:59:18 joannet E
+Effctive changed lines in this class: 36
+
+ * $Id: Redirect.java,v 1.22 2004/02/18 23:51:20 minchau Exp  |	 * $Id: Redirect.java,v 1.23 2004/08/13 21:08:27 minchau Exp 
+Effctive changed lines in this class: 7
+
+ * $Id: ConnectionPoolManager.java,v 1.7 2004/02/11 17:56:35  |	 * $Id: ConnectionPoolManager.java,v 1.8 2004/12/15 17:35:30 
+Effctive changed lines in this class: 27
+
+ * $Id: DTMDocument.java,v 1.15 2004/02/11 17:56:36 minchau E |	 * $Id: DTMDocument.java,v 1.17 2005/01/23 00:16:04 mcnamara 
+Effctive changed lines in this class: 5
+
+ * $Id: DefaultConnectionPool.java,v 1.20 2004/02/23 10:29:35 |	 * $Id: DefaultConnectionPool.java,v 1.22 2005/08/06 20:21:41
+Effctive changed lines in this class: 1
+
+ * $Id: ObjectFactory.java,v 1.2 2004/02/23 10:29:35 aruny Ex |	 * $Id: ObjectFactory.java,v 1.5 2004/08/17 18:14:49 jycli Ex
+Effctive changed lines in this class: 7
+
+ * $Id: SQLDocument.java,v 1.25 2004/02/11 17:56:36 minchau E |	 * $Id: SQLDocument.java,v 1.28 2005/01/23 00:16:04 mcnamara 
+Effctive changed lines in this class: 36
+
+ * $Id: XConnection.java,v 1.29 2004/02/11 17:56:36 minchau E |	 * $Id: XConnection.java,v 1.34 2005/07/28 00:26:16 johng Exp
+Effctive changed lines in this class: 40
+
+ * $Id: ProcessorAttributeSet.java,v 1.8 2004/02/11 18:15:51  |	 * $Id: ProcessorAttributeSet.java,v 1.9 2004/08/17 18:18:08 
+Effctive changed lines in this class: 98
+
+ * $Id: ProcessorCharacters.java,v 1.12 2004/02/11 18:15:51 m |	 * $Id: ProcessorCharacters.java,v 1.14 2005/01/23 00:20:46 m
+Effctive changed lines in this class: 1
+
+ * $Id: ProcessorDecimalFormat.java,v 1.11 2004/02/11 18:15:5 |	 * $Id: ProcessorDecimalFormat.java,v 1.12 2004/08/17 18:18:0
+Effctive changed lines in this class: 1
+
+ * $Id: ProcessorExsltFuncResult.java,v 1.6 2004/02/11 18:15: |	 * $Id: ProcessorExsltFuncResult.java,v 1.7 2004/08/17 18:18:
+Effctive changed lines in this class: 1
+
+ * $Id: ProcessorExsltFunction.java,v 1.9 2004/02/11 18:15:51 |	 * $Id: ProcessorExsltFunction.java,v 1.10 2004/08/17 18:18:0
+Effctive changed lines in this class: 1
+
+ * $Id: ProcessorGlobalParamDecl.java,v 1.8 2004/02/11 18:15: |	 * $Id: ProcessorGlobalParamDecl.java,v 1.9 2004/08/17 18:18:
+Effctive changed lines in this class: 1
+
+ * $Id: ProcessorGlobalVariableDecl.java,v 1.8 2004/02/11 18: |	 * $Id: ProcessorGlobalVariableDecl.java,v 1.9 2004/08/17 18:
+Effctive changed lines in this class: 1
+
+ * $Id: ProcessorImport.java,v 1.14 2004/02/11 18:15:50 minch |	 * $Id: ProcessorImport.java,v 1.16 2004/08/17 18:18:08 jycli
+Effctive changed lines in this class: 1
+
+ * $Id: ProcessorInclude.java,v 1.27 2004/02/11 18:15:51 minc |	 * $Id: ProcessorInclude.java,v 1.30 2005/06/07 15:35:52 mkwa
+Effctive changed lines in this class: 2
+
+ * $Id: ProcessorKey.java,v 1.13 2004/02/11 18:15:51 minchau  |	 * $Id: ProcessorKey.java,v 1.14 2004/08/17 18:18:08 jycli Ex
+Effctive changed lines in this class: 20
+
+ * $Id: ProcessorLRE.java,v 1.24 2004/02/11 18:15:51 minchau  |	 * $Id: ProcessorLRE.java,v 1.29 2005/06/07 15:35:52 mkwan Ex
+Effctive changed lines in this class: 1
+
+ * $Id: ProcessorNamespaceAlias.java,v 1.11 2004/02/11 18:15: |	 * $Id: ProcessorNamespaceAlias.java,v 1.13 2004/10/06 20:06:
+Effctive changed lines in this class: 15
+
+ * $Id: ProcessorOutputElem.java,v 1.18 2004/02/11 18:15:50 m |	 * $Id: ProcessorOutputElem.java,v 1.19 2004/08/17 18:18:08 j
+Effctive changed lines in this class: 13
+
+ * $Id: ProcessorPreserveSpace.java,v 1.11 2004/02/11 18:15:5 |	 * $Id: ProcessorPreserveSpace.java,v 1.12 2004/08/17 18:18:0
+Effctive changed lines in this class: 1
+
+ * $Id: ProcessorStripSpace.java,v 1.11 2004/02/11 18:15:51 m |	 * $Id: ProcessorStripSpace.java,v 1.12 2004/08/17 18:18:08 j
+Effctive changed lines in this class: 1
+
+ * $Id: ProcessorStylesheetDoc.java,v 1.6 2004/02/11 18:15:50 |	 * $Id: ProcessorStylesheetDoc.java,v 1.7 2004/08/17 18:18:08
+Effctive changed lines in this class: 1
+
+ * $Id: ProcessorStylesheetElement.java,v 1.13 2004/02/11 18: |	 * $Id: ProcessorStylesheetElement.java,v 1.17 2005/06/07 15:
+Effctive changed lines in this class: 1
+
+ * $Id: ProcessorTemplate.java,v 1.10 2004/02/11 18:15:50 min |	 * $Id: ProcessorTemplate.java,v 1.11 2004/08/17 18:18:08 jyc
+Effctive changed lines in this class: 14
+
+ * $Id: ProcessorTemplateElem.java,v 1.14 2004/02/11 18:15:51 |	 * $Id: ProcessorTemplateElem.java,v 1.16 2005/01/23 00:20:46
+Effctive changed lines in this class: 1
+
+ * $Id: ProcessorText.java,v 1.8 2004/02/11 18:15:51 minchau  |	 * $Id: ProcessorText.java,v 1.10 2005/01/23 00:20:46 mcnamar
+Effctive changed lines in this class: 1
+
+ * $Id: ProcessorUnknown.java,v 1.9 2004/02/11 18:15:51 minch |	 * $Id: ProcessorUnknown.java,v 1.10 2004/08/17 18:18:09 jycl
+Effctive changed lines in this class: 1
+
+ * $Id: StylesheetHandler.java,v 1.64 2004/02/17 22:10:49 min |	 * $Id: StylesheetHandler.java,v 1.70 2005/06/22 19:07:10 mkw
+Effctive changed lines in this class: 1
+
+ * $Id: TransformerFactoryImpl.java,v 1.56 2004/02/11 18:15:5 |	 * $Id: TransformerFactoryImpl.java,v 1.63 2005/07/24 21:08:4
+Effctive changed lines in this class: 45
+
+ * $Id: WhitespaceInfoPaths.java,v 1.5 2004/02/11 18:15:50 mi |	 * $Id: WhitespaceInfoPaths.java,v 1.6 2004/08/17 18:18:09 jy
+Effctive changed lines in this class: 143
+
+ * $Id: XSLProcessorVersion.java,v 1.49 2004/02/26 04:00:47 z |	 * $Id: XSLProcessorVersion.src,v 1.1 2005/07/19 18:03:07 mcn
+Effctive changed lines in this class: 1
+
+ * $Id: XSLTAttributeDef.java,v 1.32 2004/02/11 18:15:50 minc |	 * $Id: XSLTAttributeDef.java,v 1.34 2005/03/23 17:54:04 ytal
+Effctive changed lines in this class: 2
+
+ * $Id: XSLTElementDef.java,v 1.18 2004/02/11 18:15:50 mincha |	 * $Id: XSLTElementDef.java,v 1.19 2004/03/04 20:42:41 mincha
+Effctive changed lines in this class: 9
+
+ * $Id: XSLTElementProcessor.java,v 1.18 2004/02/11 18:15:50  |	 * $Id: XSLTElementProcessor.java,v 1.20 2005/01/23 00:20:46 
+Effctive changed lines in this class: 3
+
+ * $Id: XSLMessages.java,v 1.15 2004/02/16 19:14:07 minchau E |	 * $Id: XSLMessages.java,v 1.16 2005/01/23 00:20:47 mcnamara 
+Effctive changed lines in this class: 1
+
+ * $Id: XSLTErrorResources.java,v 1.44 2004/02/23 21:33:14 ig |	 * $Id: XSLTErrorResources.java,v 1.52 2005/07/08 21:45:12 jy
+There is NO effctive change in this class
+
+ * $Id: XSLTErrorResources_ca.java,v 1.2 2004/02/16 19:14:07  |	 * $Id: XSLTErrorResources_ca.java,v 1.3 2004/12/15 17:35:31 
+Effctive changed lines in this class: 442
+
+ * $Id: XSLTErrorResources_cs.java,v 1.2 2004/02/16 19:14:07  |	 * $Id: XSLTErrorResources_cs.java,v 1.3 2004/12/15 17:35:31 
+Effctive changed lines in this class: 8
+
+ * $Id: XSLTErrorResources_de.java,v 1.8 2004/02/16 19:14:07  |	 * $Id: XSLTErrorResources_de.java,v 1.9 2004/12/15 17:35:31 
+Effctive changed lines in this class: 9
+
+ * $Id: XSLTErrorResources_es.java,v 1.8 2004/02/16 19:14:07  |	 * $Id: XSLTErrorResources_es.java,v 1.9 2004/12/15 17:35:31 
+Effctive changed lines in this class: 8
+
+ * $Id: XSLTErrorResources_fr.java,v 1.8 2004/02/16 19:14:07  |	 * $Id: XSLTErrorResources_fr.java,v 1.9 2004/12/15 17:35:32 
+Effctive changed lines in this class: 8
+
+ * $Id: XSLTErrorResources_hu.java,v 1.2 2004/02/16 19:14:07  |	 * $Id: XSLTErrorResources_hu.java,v 1.3 2004/12/15 17:35:32 
+Effctive changed lines in this class: 8
+
+ * $Id: XSLTErrorResources_it.java,v 1.8 2004/02/16 19:14:07  |	 * $Id: XSLTErrorResources_it.java,v 1.9 2004/12/15 17:35:32 
+Effctive changed lines in this class: 8
+
+ * $Id: XSLTErrorResources_ja.java,v 1.8 2004/02/16 19:14:07  |	 * $Id: XSLTErrorResources_ja.java,v 1.9 2004/12/15 17:35:32 
+Effctive changed lines in this class: 8
+
+ * $Id: XSLTErrorResources_ko.java,v 1.8 2004/02/16 19:14:07  |	 * $Id: XSLTErrorResources_ko.java,v 1.9 2004/12/15 17:35:32 
+Effctive changed lines in this class: 8
+
+ * $Id: XSLTErrorResources_pl.java,v 1.2 2004/02/16 19:14:07  |	 * $Id: XSLTErrorResources_pl.java,v 1.3 2004/12/15 17:35:32 
+Effctive changed lines in this class: 8
+
+ * $Id: XSLTErrorResources_pt_BR.java,v 1.2 2004/02/16 19:14: |	 * $Id: XSLTErrorResources_pt_BR.java,v 1.3 2004/12/15 17:35:
+Effctive changed lines in this class: 8
+
+ * $Id: XSLTErrorResources_ru.java,v 1.2 2004/02/16 19:14:07  |	 * $Id: XSLTErrorResources_ru.java,v 1.3 2004/12/15 17:35:32 
+Effctive changed lines in this class: 8
+
+ * $Id: XSLTErrorResources_sk.java,v 1.2 2004/02/16 19:14:07  |	 * $Id: XSLTErrorResources_sk.java,v 1.3 2004/12/15 17:35:32 
+Effctive changed lines in this class: 8
+
+ * $Id: XSLTErrorResources_sv.java,v 1.7 2004/02/16 19:14:07  |	 * $Id: XSLTErrorResources_sv.java,v 1.8 2004/12/15 17:35:32 
+Effctive changed lines in this class: 8
+
+ * $Id: XSLTErrorResources_tr.java,v 1.2 2004/02/16 19:14:07  |	 * $Id: XSLTErrorResources_tr.java,v 1.3 2004/12/15 17:35:32 
+Effctive changed lines in this class: 8
+
+ * $Id: XSLTErrorResources_zh_CN.java,v 1.8 2004/02/16 19:14: |	 * $Id: XSLTErrorResources_zh_CN.java,v 1.9 2004/12/15 17:35:
+Effctive changed lines in this class: 8
+
+ * $Id: XSLTErrorResources_zh_TW.java,v 1.8 2004/02/16 19:14: |	 * $Id: XSLTErrorResources_zh_TW.java,v 1.9 2004/12/15 17:35:
+Effctive changed lines in this class: 8
+
+ * $Id: SerializerFactory.java,v 1.10 2004/02/16 20:27:14 min |	 * $Id: SerializerFactory.java,v 1.11 2005/01/24 04:04:39 mcn
+Effctive changed lines in this class: 8
+
+ * $Id: SerializerUtils.java,v 1.3 2004/02/16 20:27:14 mincha |	 * $Id: SerializerUtils.java,v 1.6 2005/02/11 06:18:14 mincha
+There is NO effctive change in this class
+
+ * $Id: AVT.java,v 1.22 2004/02/16 20:32:32 minchau Exp $     |	 * $Id: AVT.java,v 1.26 2005/01/23 00:27:29 mcnamara Exp $
+Effctive changed lines in this class: 3
+
+ * $Id: AVTPart.java,v 1.15 2004/02/16 20:32:32 minchau Exp $ |	 * $Id: AVTPart.java,v 1.17 2005/01/23 00:27:29 mcnamara Exp 
+Effctive changed lines in this class: 86
+
+ * $Id: AVTPartSimple.java,v 1.15 2004/02/16 20:32:33 minchau |	 * $Id: AVTPartSimple.java,v 1.17 2005/01/23 00:27:29 mcnamar
+Effctive changed lines in this class: 1
+
+ * $Id: AVTPartXPath.java,v 1.18 2004/02/16 20:32:32 minchau  |	 * $Id: AVTPartXPath.java,v 1.20 2005/01/23 00:27:29 mcnamara
+Effctive changed lines in this class: 1
+
+ * $Id: DecimalFormatProperties.java,v 1.15 2004/02/16 20:32: |	 * $Id: DecimalFormatProperties.java,v 1.16 2004/08/17 18:35:
+Effctive changed lines in this class: 1
+
+ * $Id: ElemApplyImport.java,v 1.14 2004/02/16 20:32:33 minch |	 * $Id: ElemApplyImport.java,v 1.18 2005/01/23 00:27:29 mcnam
+Effctive changed lines in this class: 1
+
+ * $Id: ElemApplyTemplates.java,v 1.33 2004/02/16 20:32:32 mi |	 * $Id: ElemApplyTemplates.java,v 1.36 2005/01/23 00:27:29 mc
+Effctive changed lines in this class: 4
+
+ * $Id: ElemAttribute.java,v 1.27 2004/02/24 03:55:47 zongaro |	 * $Id: ElemAttribute.java,v 1.30 2005/03/23 17:54:04 ytalwar
+Effctive changed lines in this class: 9
+
+ * $Id: ElemAttributeSet.java,v 1.14 2004/02/16 20:32:32 minc |	 * $Id: ElemAttributeSet.java,v 1.17 2005/01/23 00:27:29 mcna
+Effctive changed lines in this class: 17
+
+ * $Id: ElemCallTemplate.java,v 1.27 2004/02/16 20:32:32 minc |	 * $Id: ElemCallTemplate.java,v 1.30 2005/01/23 00:27:29 mcna
+Effctive changed lines in this class: 3
+
+ * $Id: ElemChoose.java,v 1.18 2004/02/16 20:32:32 minchau Ex |	 * $Id: ElemChoose.java,v 1.21 2005/01/23 00:27:29 mcnamara E
+Effctive changed lines in this class: 5
+
+ * $Id: ElemComment.java,v 1.13 2004/02/16 20:32:33 minchau E |	 * $Id: ElemComment.java,v 1.16 2005/01/23 00:27:29 mcnamara 
+Effctive changed lines in this class: 7
+
+ * $Id: ElemCopy.java,v 1.20 2004/02/16 20:32:32 minchau Exp  |	 * $Id: ElemCopy.java,v 1.23 2005/01/23 00:27:29 mcnamara Exp
+Effctive changed lines in this class: 3
+
+ * $Id: ElemCopyOf.java,v 1.19 2004/02/16 20:32:32 minchau Ex |	 * $Id: ElemCopyOf.java,v 1.22 2005/01/23 00:27:29 mcnamara E
+Effctive changed lines in this class: 5
+
+ * $Id: ElemElement.java,v 1.36 2004/02/24 03:55:47 zongaro E |	 * $Id: ElemElement.java,v 1.39 2005/03/23 17:54:04 ytalwar E
+Effctive changed lines in this class: 4
+
+ * $Id: ElemEmpty.java,v 1.7 2004/02/16 20:32:32 minchau Exp  |	 * $Id: ElemEmpty.java,v 1.8 2004/08/17 18:35:32 jycli Exp $
+Effctive changed lines in this class: 5
+
+ * $Id: ElemExsltFuncResult.java,v 1.9 2004/02/16 20:32:32 mi |	 * $Id: ElemExsltFuncResult.java,v 1.11 2004/12/15 17:35:34 j
+Effctive changed lines in this class: 1
+
+ * $Id: ElemExsltFunction.java,v 1.9 2004/02/16 20:32:32 minc |	 * $Id: ElemExsltFunction.java,v 1.13 2005/01/23 00:27:29 mcn
+Effctive changed lines in this class: 8
+
+ * $Id: ElemExtensionCall.java,v 1.38 2004/02/16 20:32:32 min |	 * $Id: ElemExtensionCall.java,v 1.43 2005/06/07 15:35:52 mkw
+Effctive changed lines in this class: 4
+
+ * $Id: ElemExtensionDecl.java,v 1.21 2004/02/16 20:32:33 min |	 * $Id: ElemExtensionDecl.java,v 1.22 2004/08/17 18:35:32 jyc
+Effctive changed lines in this class: 21
+
+ * $Id: ElemExtensionScript.java,v 1.8 2004/02/16 20:32:32 mi |	 * $Id: ElemExtensionScript.java,v 1.9 2004/08/17 18:35:32 jy
+Effctive changed lines in this class: 1
+
+ * $Id: ElemFallback.java,v 1.17 2004/02/16 20:32:33 minchau  |	 * $Id: ElemFallback.java,v 1.20 2005/01/23 00:27:29 mcnamara
+Effctive changed lines in this class: 1
+
+ * $Id: ElemForEach.java,v 1.38 2004/02/18 15:47:39 minchau E |	 * $Id: ElemForEach.java,v 1.41 2005/01/23 00:27:29 mcnamara 
+Effctive changed lines in this class: 3
+
+ * $Id: ElemIf.java,v 1.17 2004/02/16 20:32:32 minchau Exp $  |	 * $Id: ElemIf.java,v 1.20 2005/01/23 00:27:29 mcnamara Exp $
+Effctive changed lines in this class: 15
+
+ * $Id: ElemLiteralResult.java,v 1.42 2004/02/16 20:32:33 min |	 * $Id: ElemLiteralResult.java,v 1.49 2005/05/17 17:22:14 mkw
+Effctive changed lines in this class: 5
+
+ * $Id: ElemMessage.java,v 1.17 2004/02/16 20:32:33 minchau E |	 * $Id: ElemMessage.java,v 1.20 2005/01/23 00:27:29 mcnamara 
+Effctive changed lines in this class: 418
+
+ * $Id: ElemNumber.java,v 1.32 2004/02/16 20:32:32 minchau Ex |	 * $Id: ElemNumber.java,v 1.37 2005/04/01 19:28:07 ytalwar Ex
+Effctive changed lines in this class: 3
+
+ * $Id: ElemOtherwise.java,v 1.8 2004/02/16 20:32:32 minchau  |	 * $Id: ElemOtherwise.java,v 1.9 2004/08/17 18:35:33 jycli Ex
+Effctive changed lines in this class: 103
+
+ * $Id: ElemPI.java,v 1.19 2004/02/24 03:55:47 zongaro Exp $  |	 * $Id: ElemPI.java,v 1.23 2005/03/23 17:54:04 ytalwar Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: ElemParam.java,v 1.17 2004/02/16 20:32:32 minchau Exp |	 * $Id: ElemParam.java,v 1.20 2005/01/23 00:27:29 mcnamara Ex
+Effctive changed lines in this class: 5
+
+ * $Id: ElemSort.java,v 1.11 2004/02/16 20:32:32 minchau Exp  |	 * $Id: ElemSort.java,v 1.12 2004/08/17 18:35:33 jycli Exp $
+Effctive changed lines in this class: 3
+
+ * $Id: ElemTemplate.java,v 1.20 2004/02/16 20:32:32 minchau  |	 * $Id: ElemTemplate.java,v 1.23 2005/01/23 00:27:29 mcnamara
+Effctive changed lines in this class: 1
+
+ * $Id: ElemTemplateElement.java,v 1.65 2004/02/24 03:55:47 z |	 * $Id: ElemTemplateElement.java,v 1.67 2005/01/23 00:27:29 m
+Effctive changed lines in this class: 3
+
+ * $Id: ElemText.java,v 1.9 2004/02/16 20:32:32 minchau Exp $ |	 * $Id: ElemText.java,v 1.10 2004/08/17 18:35:33 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: ElemTextLiteral.java,v 1.16 2004/02/16 20:32:32 minch |	 * $Id: ElemTextLiteral.java,v 1.19 2005/01/23 00:27:29 mcnam
+Effctive changed lines in this class: 1
+
+ * $Id: ElemUnknown.java,v 1.11 2004/02/16 20:32:33 minchau E |	 * $Id: ElemUnknown.java,v 1.14 2005/01/23 00:27:29 mcnamara 
+Effctive changed lines in this class: 3
+
+ * $Id: ElemUse.java,v 1.19 2004/02/16 20:32:32 minchau Exp $ |	 * $Id: ElemUse.java,v 1.21 2005/01/23 00:27:29 mcnamara Exp 
+Effctive changed lines in this class: 3
+
+ * $Id: ElemValueOf.java,v 1.24 2004/02/16 20:32:33 minchau E |	 * $Id: ElemValueOf.java,v 1.27 2005/01/23 00:27:29 mcnamara 
+Effctive changed lines in this class: 1
+
+ * $Id: ElemVariable.java,v 1.26 2004/02/16 20:32:33 minchau  |	 * $Id: ElemVariable.java,v 1.29 2005/01/23 00:27:29 mcnamara
+Effctive changed lines in this class: 5
+
+ * $Id: ElemVariablePsuedo.java,v 1.5 2004/02/16 20:32:32 min |	 * $Id: ElemVariablePsuedo.java,v 1.7 2005/01/23 00:27:29 mcn
+Effctive changed lines in this class: 5
+
+ * $Id: ElemWhen.java,v 1.11 2004/02/16 20:32:32 minchau Exp  |	 * $Id: ElemWhen.java,v 1.12 2004/08/17 18:35:33 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: ElemWithParam.java,v 1.14 2004/02/16 20:32:33 minchau |	 * $Id: ElemWithParam.java,v 1.17 2005/01/23 00:27:29 mcnamar
+Effctive changed lines in this class: 1
+
+ * $Id: FuncDocument.java,v 1.35 2004/02/16 20:32:32 minchau  |	 * $Id: FuncDocument.java,v 1.36 2004/08/17 18:35:33 jycli Ex
+Effctive changed lines in this class: 3
+
+ * $Id: FuncFormatNumb.java,v 1.23 2004/02/16 20:32:33 mincha |	 * $Id: FuncFormatNumb.java,v 1.24 2004/08/17 18:35:33 jycli 
+Effctive changed lines in this class: 1
+
+ * $Id: FuncKey.java,v 1.19 2004/02/16 20:32:33 minchau Exp $ |	 * $Id: FuncKey.java,v 1.20 2004/08/17 18:35:33 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: KeyDeclaration.java,v 1.13 2004/02/16 20:32:33 mincha |	 * $Id: KeyDeclaration.java,v 1.14 2004/08/17 18:35:33 jycli 
+Effctive changed lines in this class: 1
+
+ * $Id: NamespaceAlias.java,v 1.9 2004/02/16 20:32:32 minchau |	 * $Id: NamespaceAlias.java,v 1.10 2004/08/17 18:35:33 jycli 
+Effctive changed lines in this class: 1
+
+ * $Id: OutputProperties.java,v 1.33 2004/02/16 20:32:32 minc |	 * $Id: OutputProperties.java,v 1.34 2004/08/17 18:35:33 jycl
+Effctive changed lines in this class: 1
+
+ * $Id: RedundentExprEliminator.java,v 1.9 2004/02/16 20:32:3 |	 * $Id: RedundentExprEliminator.java,v 1.11 2005/01/23 00:27:
+Effctive changed lines in this class: 1
+
+ * $Id: Stylesheet.java,v 1.30 2004/02/16 20:32:32 minchau Ex |	 * $Id: Stylesheet.java,v 1.31 2004/08/17 18:35:34 jycli Exp 
+Effctive changed lines in this class: 31
+
+ * $Id: StylesheetComposed.java,v 1.29 2004/02/16 20:32:32 mi |	 * $Id: StylesheetComposed.java,v 1.30 2004/08/17 18:35:34 jy
+Effctive changed lines in this class: 1
+
+ * $Id: StylesheetRoot.java,v 1.54 2004/02/16 20:32:32 mincha |	 * $Id: StylesheetRoot.java,v 1.58 2005/06/07 15:35:52 mkwan 
+Effctive changed lines in this class: 1
+
+ * $Id: TemplateList.java,v 1.38 2004/02/16 20:32:33 minchau  |	 * $Id: TemplateList.java,v 1.41 2005/01/23 00:27:29 mcnamara
+Effctive changed lines in this class: 58
+
+ * $Id: TemplateSubPatternAssociation.java,v 1.13 2004/02/16  |	 * $Id: TemplateSubPatternAssociation.java,v 1.14 2004/08/17 
+Effctive changed lines in this class: 2
+
+ * $Id: WhiteSpaceInfo.java,v 1.10 2004/02/16 20:32:33 mincha |	 * $Id: WhiteSpaceInfo.java,v 1.12 2005/01/23 00:27:29 mcnama
+Effctive changed lines in this class: 1
+
+ * $Id: XMLNSDecl.java,v 1.7 2004/02/16 20:32:33 minchau Exp  |	 * $Id: XMLNSDecl.java,v 1.8 2004/08/17 18:35:34 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: XSLTVisitor.java,v 1.7 2004/02/16 20:32:32 minchau Ex |	 * $Id: XSLTVisitor.java,v 1.8 2005/01/23 00:27:29 mcnamara E
+Effctive changed lines in this class: 1
+
+ * $Id: XUnresolvedVariable.java,v 1.10 2004/02/16 20:32:32 m |	 * $Id: XUnresolvedVariable.java,v 1.12 2005/01/23 00:27:29 m
+There is NO effctive change in this class
+
+ * $Id: XUnresolvedVariableSimple.java,v 1.5 2004/02/16 20:32 |	 * $Id: XUnresolvedVariableSimple.java,v 1.6 2004/08/17 18:35
+Effctive changed lines in this class: 1
+
+ * $Id: EndSelectionEvent.java,v 1.6 2004/02/16 23:00:27 minc |	 * $Id: EndSelectionEvent.java,v 1.7 2005/01/23 00:37:16 mcna
+Effctive changed lines in this class: 1
+
+ * $Id: GenerateEvent.java,v 1.11 2004/02/16 23:00:27 minchau |	 * $Id: GenerateEvent.java,v 1.12 2005/02/04 22:20:38 mcnamar
+There is NO effctive change in this class
+
+ * $Id: SelectionEvent.java,v 1.9 2004/02/16 23:00:27 minchau |	 * $Id: SelectionEvent.java,v 1.10 2005/01/23 00:37:16 mcnama
+There is NO effctive change in this class
+
+ * $Id: TraceListenerEx3.java,v 1.3 2004/02/16 23:00:27 minch |	 * $Id: TraceListenerEx3.java,v 1.4 2005/01/23 00:37:16 mcnam
+There is NO effctive change in this class
+
+ * $Id: TraceManager.java,v 1.16 2004/02/16 23:00:27 minchau  |	 * $Id: TraceManager.java,v 1.19 2005/01/23 00:37:16 mcnamara
+There is NO effctive change in this class
+
+ * $Id: TracerEvent.java,v 1.9 2004/02/16 23:00:27 minchau Ex |	 * $Id: TracerEvent.java,v 1.10 2005/01/23 00:37:16 mcnamara 
+Effctive changed lines in this class: 15
+
+ * $Id: CountersTable.java,v 1.13 2004/02/16 20:41:30 minchau |	 * $Id: CountersTable.java,v 1.14 2004/08/17 18:37:32 jycli E
+There is NO effctive change in this class
+
+ * $Id: KeyIterator.java,v 1.16 2004/02/16 20:41:30 minchau E |	 * $Id: KeyIterator.java,v 1.18 2005/01/23 00:37:17 mcnamara 
+Effctive changed lines in this class: 1
+
+ * $Id: KeyRefIterator.java,v 1.17 2004/02/16 20:41:29 mincha |	 * $Id: KeyRefIterator.java,v 1.19 2005/01/23 00:37:17 mcnama
+Effctive changed lines in this class: 1
+
+ * $Id: KeyTable.java,v 1.17 2004/02/16 20:41:29 minchau Exp  |	 * $Id: KeyTable.java,v 1.19 2005/01/23 00:37:17 mcnamara Exp
+Effctive changed lines in this class: 1
+
+ * $Id: StackGuard.java,v 1.12 2004/02/16 20:41:29 minchau Ex |	 * $Id: StackGuard.java,v 1.14 2005/01/23 00:37:17 mcnamara E
+Effctive changed lines in this class: 27
+
+ * $Id: TrAXFilter.java,v 1.15 2004/02/23 17:09:48 jycli Exp  |	 * $Id: TrAXFilter.java,v 1.17 2005/06/07 15:35:52 mkwan Exp 
+Effctive changed lines in this class: 1
+
+ * $Id: TransformerHandlerImpl.java,v 1.19 2004/02/16 20:41:2 |	 * $Id: TransformerHandlerImpl.java,v 1.20 2004/12/15 17:35:3
+Effctive changed lines in this class: 9
+
+ * $Id: TransformerIdentityImpl.java,v 1.31 2004/02/23 21:33: |	 * $Id: TransformerIdentityImpl.java,v 1.37 2005/07/05 17:55:
+Effctive changed lines in this class: 10
+
+ * $Id: TransformerImpl.java,v 1.158 2004/02/23 21:33:14 igor |	 * $Id: TransformerImpl.java,v 1.167 2005/07/15 22:21:30 mcna
+Effctive changed lines in this class: 58
+
+ * $Id: EnvironmentCheck.java,v 1.26 2004/02/26 04:00:47 zong |	 * $Id: EnvironmentCheck.java,v 1.29 2005/07/27 19:21:04 mcna
+Effctive changed lines in this class: 74
+
+ * $Id: ObjectFactory.java,v 1.2 2004/02/23 10:29:35 aruny Ex |	 * $Id: ObjectFactory.java,v 1.5 2004/08/17 18:38:33 jycli Ex
+Effctive changed lines in this class: 5
+
+ * $Id: Process.java,v 1.62 2004/02/23 10:29:35 aruny Exp $   |	 * $Id: Process.java,v 1.64 2005/06/07 15:35:52 mkwan Exp $
+Effctive changed lines in this class: 36
+
+ * $Id: TransletException.java,v 1.4 2004/02/16 20:54:58 minc |	 * $Id: TransletException.java,v 1.5 2004/08/17 18:48:34 jycl
+Effctive changed lines in this class: 97
+
+ * $Id: Compile.java,v 1.17 2004/02/16 21:07:51 minchau Exp $ |	 * $Id: Compile.java,v 1.18 2004/12/15 17:35:38 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: ObjectFactory.java,v 1.2 2004/02/23 10:29:35 aruny Ex |	 * $Id: ObjectFactory.java,v 1.5 2004/08/17 18:48:35 jycli Ex
+Effctive changed lines in this class: 10
+
+ * $Id: Transform.java,v 1.32 2004/02/23 10:29:35 aruny Exp $ |	 * $Id: Transform.java,v 1.33 2004/12/15 17:35:38 jycli Exp $
+Effctive changed lines in this class: 36
+
+ * $Id: GetOpt.java,v 1.5 2004/02/16 21:21:06 minchau Exp $   |	 * $Id: GetOpt.java,v 1.6 2005/01/23 00:37:17 mcnamara Exp $
+Effctive changed lines in this class: 15
+
+ * $Id: GetOptsException.java,v 1.3 2004/02/16 21:21:06 minch |	 * $Id: GetOptsException.java,v 1.4 2004/08/17 18:48:35 jycli
+There is NO effctive change in this class
+
+ * $Id: IllegalArgumentException.java,v 1.4 2004/02/16 21:21: |	 * $Id: IllegalArgumentException.java,v 1.5 2004/08/17 18:48:
+Effctive changed lines in this class: 1
+
+ * $Id: MissingOptArgException.java,v 1.4 2004/02/16 21:21:06 |	 * $Id: MissingOptArgException.java,v 1.5 2004/08/17 18:48:35
+Effctive changed lines in this class: 1
+
+ * $Id: AbsoluteLocationPath.java,v 1.8 2004/02/16 22:24:29 m |	 * $Id: AbsoluteLocationPath.java,v 1.9 2005/06/30 21:04:16 z
+Effctive changed lines in this class: 1
+
+ * $Id: ApplyImports.java,v 1.13 2004/02/16 22:24:29 minchau  |	 * $Id: ApplyImports.java,v 1.15 2005/02/09 22:45:15 ytalwar 
+Effctive changed lines in this class: 15
+
+ * $Id: ApplyTemplates.java,v 1.21 2004/02/24 03:55:47 zongar |	 * $Id: ApplyTemplates.java,v 1.22 2005/03/23 17:54:04 ytalwa
+Effctive changed lines in this class: 58
+
+ * $Id: AttributeSet.java,v 1.17 2004/02/24 03:55:47 zongaro  |	 * $Id: AttributeSet.java,v 1.18 2005/03/23 17:54:04 ytalwar 
+Effctive changed lines in this class: 2
+
+ * $Id: AttributeValueTemplate.java,v 1.10 2004/02/16 22:24:2 |	 * $Id: AttributeValueTemplate.java,v 1.11 2004/05/21 20:27:5
+Effctive changed lines in this class: 2
+
+ * $Id: CallTemplate.java,v 1.18 2004/02/24 02:57:28 zongaro  |	 * $Id: CallTemplate.java,v 1.20 2005/03/23 17:54:04 ytalwar 
+Effctive changed lines in this class: 174
+
+ * $Id: CastExpr.java,v 1.21 2004/02/16 22:24:29 minchau Exp  |	 * $Id: CastExpr.java,v 1.23 2004/12/15 17:35:38 jycli Exp $
+Effctive changed lines in this class: 12
+
+ * $Id: CompilerException.java,v 1.3 2004/02/16 22:24:29 minc |	 * $Id: CompilerException.java,v 1.4 2004/08/17 18:48:35 jycl
+Effctive changed lines in this class: 3
+
+ * $Id: DecimalFormatting.java,v 1.14 2004/02/24 03:55:47 zon |	 * $Id: DecimalFormatting.java,v 1.15 2005/03/23 17:54:04 yta
+Effctive changed lines in this class: 1
+
+ * $Id: EqualityExpr.java,v 1.14 2004/02/16 22:24:29 minchau  |	 * $Id: EqualityExpr.java,v 1.15 2004/12/15 17:35:38 jycli Ex
+Effctive changed lines in this class: 2
+
+ * $Id: FilterExpr.java,v 1.11 2004/02/16 22:24:29 minchau Ex |	 * $Id: FilterExpr.java,v 1.12 2005/06/30 21:04:16 zongaro Ex
+Effctive changed lines in this class: 4
+
+ * $Id: FilterParentPath.java,v 1.13 2004/02/16 22:24:29 minc |	 * $Id: FilterParentPath.java,v 1.14 2005/06/30 21:04:16 zong
+Effctive changed lines in this class: 25
+
+ * $Id: FilteredAbsoluteLocationPath.java,v 1.6 2004/02/16 22 |	 * $Id: FilteredAbsoluteLocationPath.java,v 1.7 2005/06/30 21
+Effctive changed lines in this class: 21
+
+ * $Id: FunctionCall.java,v 1.38 2004/02/23 17:29:35 aruny Ex |	 * $Id: FunctionCall.java,v 1.41 2005/06/30 21:04:16 zongaro 
+Effctive changed lines in this class: 13
+
+ * $Id: IllegalCharException.java,v 1.3 2004/02/16 22:24:29 m |	 * $Id: IllegalCharException.java,v 1.4 2004/08/17 18:48:35 j
+Effctive changed lines in this class: 96
+
+ * $Id: Import.java,v 1.24 2004/02/16 22:24:29 minchau Exp $  |	 * $Id: Import.java,v 1.25 2004/12/13 20:29:27 joannet Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: Key.java,v 1.18 2004/02/24 03:55:47 zongaro Exp $     |	 * $Id: Key.java,v 1.20 2005/03/23 17:54:04 ytalwar Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: KeyCall.java,v 1.15 2004/02/16 22:24:29 minchau Exp $ |	 * $Id: KeyCall.java,v 1.16 2005/06/30 21:04:16 zongaro Exp $
+Effctive changed lines in this class: 3
+
+ * $Id: LiteralAttribute.java,v 1.8 2004/02/16 22:24:29 minch |	 * $Id: LiteralAttribute.java,v 1.9 2004/05/21 20:29:28 santi
+Effctive changed lines in this class: 13
+
+ * $Id: LiteralElement.java,v 1.25 2004/02/24 03:55:47 zongar |	 * $Id: LiteralElement.java,v 1.27 2004/06/10 22:26:03 santia
+Effctive changed lines in this class: 4
+
+ * $Id: LocationPathPattern.java,v 1.6 2004/02/16 22:24:29 mi |	 * $Id: LocationPathPattern.java,v 1.7 2004/12/15 17:35:38 jy
+Effctive changed lines in this class: 20
+
+ * $Id: Mode.java,v 1.31 2004/02/16 22:24:29 minchau Exp $    |	 * $Id: Mode.java,v 1.36 2005/02/17 19:08:02 ytalwar Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: Number.java,v 1.14 2004/02/24 02:58:42 zongaro Exp $  |	 * $Id: Number.java,v 1.15 2005/02/04 18:26:12 jycli Exp $
+Effctive changed lines in this class: 79
+
+ * $Id: ObjectFactory.java,v 1.2 2004/02/23 10:29:35 aruny Ex |	 * $Id: ObjectFactory.java,v 1.5 2004/08/17 18:48:35 jycli Ex
+Effctive changed lines in this class: 6
+
+ * $Id: Output.java,v 1.25 2004/02/24 03:55:48 zongaro Exp $  |	 * $Id: Output.java,v 1.28 2005/03/23 17:54:04 ytalwar Exp $
+Effctive changed lines in this class: 36
+
+ * $Id: ParentLocationPath.java,v 1.23 2004/02/16 22:24:29 mi |	 * $Id: ParentLocationPath.java,v 1.25 2005/06/30 21:04:16 zo
+Effctive changed lines in this class: 55
+
+ * $Id: Parser.java,v 1.64 2004/02/23 10:29:35 aruny Exp $    |	 * $Id: Parser.java,v 1.70 2005/07/15 16:50:24 minchau Exp $
+Effctive changed lines in this class: 20
+
+ * $Id: Pattern.java,v 1.4 2004/02/16 22:24:29 minchau Exp $  |	 * $Id: Pattern.java,v 1.5 2005/01/23 00:37:17 mcnamara Exp $
+Effctive changed lines in this class: 32
+
+ * $Id: Predicate.java,v 1.34 2004/02/24 02:58:42 zongaro Exp |	 * $Id: Predicate.java,v 1.35 2004/12/15 17:35:38 jycli Exp $
+There is NO effctive change in this class
+
+ * $Id: ProcessingInstruction.java,v 1.11 2004/02/24 03:55:48 |	 * $Id: ProcessingInstruction.java,v 1.12 2005/03/23 17:54:04
+Effctive changed lines in this class: 2
+
+ * $Id: ProcessingInstructionPattern.java,v 1.7 2004/02/16 22 |	 * $Id: ProcessingInstructionPattern.java,v 1.8 2004/12/15 17
+Effctive changed lines in this class: 2
+
+ * $Id: RelationalExpr.java,v 1.19 2004/02/16 22:24:28 mincha |	 * $Id: RelationalExpr.java,v 1.20 2004/12/15 17:35:38 jycli 
+Effctive changed lines in this class: 1
+
+ * $Id: Sort.java,v 1.23 2004/02/24 02:58:42 zongaro Exp $    |	 * $Id: Sort.java,v 1.25 2005/06/30 21:04:16 zongaro Exp $
+Effctive changed lines in this class: 11
+
+ * $Id: Step.java,v 1.46 2004/02/24 04:21:22 zongaro Exp $    |	 * $Id: Step.java,v 1.49 2005/06/30 21:04:16 zongaro Exp $
+Effctive changed lines in this class: 52
+
+ * $Id: StepPattern.java,v 1.24 2004/02/16 22:24:29 minchau E |	 * $Id: StepPattern.java,v 1.26 2005/06/30 21:04:16 zongaro E
+Effctive changed lines in this class: 54
+
+ * $Id: Stylesheet.java,v 1.59 2004/02/16 22:24:29 minchau Ex |	 * $Id: Stylesheet.java,v 1.61 2004/05/26 21:33:08 jycli Exp 
+Effctive changed lines in this class: 12
+
+ * $Id: SyntaxTreeNode.java,v 1.29 2004/02/16 22:25:10 mincha |	 * $Id: SyntaxTreeNode.java,v 1.32 2004/12/15 17:35:39 jycli 
+Effctive changed lines in this class: 25
+
+ * $Id: Template.java,v 1.25 2004/02/24 03:55:48 zongaro Exp  |	 * $Id: Template.java,v 1.26 2005/03/23 17:54:04 ytalwar Exp 
+Effctive changed lines in this class: 14
+
+ * $Id: TestSeq.java,v 1.11 2004/02/16 22:25:10 minchau Exp $ |	 * $Id: TestSeq.java,v 1.12 2005/02/17 19:08:03 ytalwar Exp $
+Effctive changed lines in this class: 3
+
+ * $Id: Text.java,v 1.17 2004/02/16 22:25:10 minchau Exp $    |	 * $Id: Text.java,v 1.18 2005/03/16 23:24:47 ytalwar Exp $
+Effctive changed lines in this class: 2
+
+ * $Id: TransletOutput.java,v 1.12 2004/02/16 22:25:10 mincha |	 * $Id: TransletOutput.java,v 1.13 2005/06/08 13:10:08 mkwan 
+Effctive changed lines in this class: 26
+
+ * $Id: UnionPathExpr.java,v 1.10 2004/02/16 22:25:10 minchau |	 * $Id: UnionPathExpr.java,v 1.11 2004/12/15 17:35:39 jycli E
+Effctive changed lines in this class: 12
+
+ * $Id: Variable.java,v 1.27 2004/02/24 02:58:42 zongaro Exp  |	 * $Id: Variable.java,v 1.28 2004/09/24 22:18:56 zongaro Exp 
+Effctive changed lines in this class: 2
+
+ * $Id: VariableBase.java,v 1.23 2004/02/24 02:57:28 zongaro  |	 * $Id: VariableBase.java,v 1.24 2005/03/23 17:54:04 ytalwar 
+Effctive changed lines in this class: 9
+
+ * $Id: WithParam.java,v 1.17 2004/02/24 02:57:28 zongaro Exp |	 * $Id: WithParam.java,v 1.18 2005/03/23 17:54:04 ytalwar Exp
+Effctive changed lines in this class: 2
+
+ * $Id: xpath.lex,v 1.10 2004/02/24 19:15:03 minchau Exp $    |	 * $Id: xpath.lex,v 1.12 2005/08/02 02:59:03 mcnamara Exp $
+Effctive changed lines in this class: 2
+
+ * $Id: XSLTC.java,v 1.57 2004/02/16 22:25:33 minchau Exp $   |	 * $Id: XSLTC.java,v 1.59 2005/06/08 13:10:08 mkwan Exp $
+Effctive changed lines in this class: 337
+
+ * $Id: XslAttribute.java,v 1.24 2004/02/24 03:55:48 zongaro  |	 * $Id: XslAttribute.java,v 1.25 2005/03/23 17:54:04 ytalwar 
+Effctive changed lines in this class: 10
+
+ * $Id: XslElement.java,v 1.23 2004/02/24 03:55:48 zongaro Ex |	 * $Id: XslElement.java,v 1.24 2005/03/23 17:54:04 ytalwar Ex
+Effctive changed lines in this class: 3
+
+ * $Id: ClassGenerator.java,v 1.7 2004/02/16 22:26:44 minchau |	 * $Id: ClassGenerator.java,v 1.9 2005/02/09 22:45:15 ytalwar
+Effctive changed lines in this class: 2
+
+ * $Id: ErrorMessages.java,v 1.24 2004/02/24 17:35:00 igorh E |	 * $Id: ErrorMessages.java,v 1.27 2005/07/08 21:45:12 jycli E
+Effctive changed lines in this class: 14
+
+ * $Id: ErrorMessages_ca.java,v 1.2 2004/02/16 22:26:44 minch |	 * $Id: ErrorMessages_ca.java,v 1.3 2004/12/15 17:35:41 jycli
+Effctive changed lines in this class: 18
+
+ * $Id: ErrorMessages_cs.java,v 1.2 2004/02/16 22:26:44 minch |	 * $Id: ErrorMessages_cs.java,v 1.3 2004/12/15 17:35:41 jycli
+Effctive changed lines in this class: 7
+
+ * $Id: ErrorMessages_de.java,v 1.2 2004/02/16 22:26:44 minch |	 * $Id: ErrorMessages_de.java,v 1.3 2004/12/15 17:35:41 jycli
+Effctive changed lines in this class: 7
+
+ * $Id: ErrorMessages_es.java,v 1.2 2004/02/16 22:26:44 minch |	 * $Id: ErrorMessages_es.java,v 1.3 2004/12/15 17:35:41 jycli
+Effctive changed lines in this class: 7
+
+ * $Id: ErrorMessages_fr.java,v 1.2 2004/02/16 22:26:44 minch |	 * $Id: ErrorMessages_fr.java,v 1.3 2004/12/15 17:35:41 jycli
+Effctive changed lines in this class: 7
+
+ * $Id: ErrorMessages_hu.java,v 1.2 2004/02/16 22:26:44 minch |	 * $Id: ErrorMessages_hu.java,v 1.3 2004/12/15 17:35:41 jycli
+Effctive changed lines in this class: 7
+
+ * $Id: ErrorMessages_it.java,v 1.2 2004/02/16 22:26:44 minch |	 * $Id: ErrorMessages_it.java,v 1.3 2004/12/15 17:35:42 jycli
+Effctive changed lines in this class: 7
+
+ * $Id: ErrorMessages_ja.java,v 1.2 2004/02/16 22:26:44 minch |	 * $Id: ErrorMessages_ja.java,v 1.3 2004/12/15 17:35:42 jycli
+Effctive changed lines in this class: 7
+
+ * $Id: ErrorMessages_ko.java,v 1.2 2004/02/16 22:26:44 minch |	 * $Id: ErrorMessages_ko.java,v 1.3 2004/12/15 17:35:42 jycli
+Effctive changed lines in this class: 7
+
+ * $Id: ErrorMessages_no.java,v 1.10 2004/02/16 22:26:44 minc |	 * $Id: ErrorMessages_no.java,v 1.11 2004/12/15 17:35:42 jycl
+Effctive changed lines in this class: 7
+
+ * $Id: ErrorMessages_pl.java,v 1.2 2004/02/16 22:26:45 minch |	 * $Id: ErrorMessages_pl.java,v 1.3 2004/12/15 17:35:42 jycli
+Effctive changed lines in this class: 6
+
+ * $Id: ErrorMessages_pt_BR.java,v 1.2 2004/02/16 22:26:44 mi |	 * $Id: ErrorMessages_pt_BR.java,v 1.3 2004/12/15 17:35:42 jy
+Effctive changed lines in this class: 7
+
+ * $Id: ErrorMessages_ru.java,v 1.2 2004/02/16 22:26:44 minch |	 * $Id: ErrorMessages_ru.java,v 1.3 2004/12/15 17:35:42 jycli
+Effctive changed lines in this class: 7
+
+ * $Id: ErrorMessages_sk.java,v 1.2 2004/02/16 22:26:44 minch |	 * $Id: ErrorMessages_sk.java,v 1.3 2004/12/15 17:35:42 jycli
+Effctive changed lines in this class: 7
+
+ * $Id: ErrorMessages_tr.java,v 1.2 2004/02/16 22:26:44 minch |	 * $Id: ErrorMessages_tr.java,v 1.3 2004/12/15 17:35:42 jycli
+Effctive changed lines in this class: 7
+
+ * $Id: ErrorMessages_zh_CN.java,v 1.2 2004/02/16 22:26:44 mi |	 * $Id: ErrorMessages_zh_CN.java,v 1.3 2004/12/15 17:35:42 jy
+Effctive changed lines in this class: 7
+
+ * $Id: ErrorMessages_zh_TW.java,v 1.2 2004/02/16 22:26:44 mi |	 * $Id: ErrorMessages_zh_TW.java,v 1.3 2004/12/15 17:35:42 jy
+Effctive changed lines in this class: 7
+
+ * $Id: ErrorMsg.java,v 1.25 2004/02/24 03:55:48 zongaro Exp  |	 * $Id: ErrorMsg.java,v 1.27 2005/06/03 15:52:45 mkwan Exp $
+Effctive changed lines in this class: 7
+
+ * $Id: MethodGenerator.java,v 1.15 2004/02/16 22:26:44 minch |	 * $Id: MethodGenerator.java,v 1.16 2005/02/17 19:08:03 ytalw
+Effctive changed lines in this class: 12
+
+ * $Id: MultiHashtable.java,v 1.6 2004/02/16 22:26:44 minchau |	 * $Id: MultiHashtable.java,v 1.7 2004/08/17 18:48:35 jycli E
+Effctive changed lines in this class: 15
+
+ * $Id: NamedMethodGenerator.java,v 1.7 2004/02/16 22:26:44 m |	 * $Id: NamedMethodGenerator.java,v 1.8 2004/12/15 17:35:42 j
+Effctive changed lines in this class: 1
+
+ * $Id: ObjectFactory.java,v 1.2 2004/02/23 10:29:35 aruny Ex |	 * $Id: ObjectFactory.java,v 1.5 2004/08/17 18:48:35 jycli Ex
+Effctive changed lines in this class: 1
+
+ * $Id: ObjectType.java,v 1.9 2004/02/23 10:29:35 aruny Exp $ |	 * $Id: ObjectType.java,v 1.10 2004/06/24 16:13:55 santiagopg
+Effctive changed lines in this class: 36
+
+ * $Id: ResultTreeType.java,v 1.21 2004/02/16 22:26:44 mincha |	 * $Id: ResultTreeType.java,v 1.22 2005/01/24 04:04:40 mcnama
+Effctive changed lines in this class: 1
+
+ * $Id: StringStack.java,v 1.3 2004/02/16 22:26:44 minchau Ex |	 * $Id: StringStack.java,v 1.4 2004/08/17 18:48:35 jycli Exp 
+There is NO effctive change in this class
+
+ * $Id: StringType.java,v 1.12 2004/02/16 22:26:45 minchau Ex |	 * $Id: StringType.java,v 1.13 2004/06/24 16:13:55 santiagopg
+Effctive changed lines in this class: 1
+
+ * $Id: Type.java,v 1.15 2004/02/16 22:26:44 minchau Exp $    |	 * $Id: Type.java,v 1.16 2004/06/24 16:13:55 santiagopg Exp $
+Effctive changed lines in this class: 2
+
+ * $Id: TypeCheckError.java,v 1.7 2004/02/16 22:26:44 minchau |	 * $Id: TypeCheckError.java,v 1.8 2004/08/17 18:48:35 jycli E
+Effctive changed lines in this class: 4
+
+ * $Id: Util.java,v 1.15 2004/02/24 03:55:48 zongaro Exp $    |	 * $Id: Util.java,v 1.16 2005/03/23 17:54:05 ytalwar Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: xpath.cup,v 1.50 2004/02/24 19:15:03 minchau Exp $    |	 * $Id: xpath.cup,v 1.51 2004/12/15 17:35:39 jycli Exp $
+Effctive changed lines in this class: 2
+
+ * $Id: xpath.lex,v 1.10 2004/02/24 19:15:03 minchau Exp $    |	 * $Id: xpath.lex,v 1.12 2005/08/02 02:59:03 mcnamara Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: AnyNodeCounter.java,v 1.4 2004/02/16 22:54:59 minchau |	 * $Id: AnyNodeCounter.java,v 1.6 2005/03/11 23:26:09 jycli E
+Effctive changed lines in this class: 105
+
+ * $Id: BitArray.java,v 1.7 2004/02/16 22:54:59 minchau Exp $ |	 * $Id: BitArray.java,v 1.8 2004/08/17 18:48:35 jycli Exp $
+Effctive changed lines in this class: 11
+
+ * $Id: DOMAdapter.java,v 1.23 2004/02/16 22:54:59 minchau Ex |	 * $Id: DOMAdapter.java,v 1.24 2004/07/22 22:46:31 minchau Ex
+Effctive changed lines in this class: 1
+
+ * $Id: DOMWSFilter.java,v 1.5 2004/02/16 22:54:59 minchau Ex |	 * $Id: DOMWSFilter.java,v 1.6 2005/01/23 00:37:17 mcnamara E
+Effctive changed lines in this class: 12
+
+ * $Id: DocumentCache.java,v 1.15 2004/02/16 22:54:59 minchau |	 * $Id: DocumentCache.java,v 1.16 2004/12/15 17:35:44 jycli E
+There is NO effctive change in this class
+
+ * $Id: KeyIndex.java,v 1.13 2004/02/16 22:54:59 minchau Exp  |	 * $Id: KeyIndex.java,v 1.15 2005/06/08 17:59:49 zongaro Exp 
+Effctive changed lines in this class: 1
+
+ * $Id: LoadDocument.java,v 1.25 2004/02/16 22:54:59 minchau  |	 * $Id: LoadDocument.java,v 1.26 2004/03/10 00:15:46 bhakti E
+Effctive changed lines in this class: 8
+
+ * $Id: MultiDOM.java,v 1.31 2004/02/16 22:54:59 minchau Exp  |	 * $Id: MultiDOM.java,v 1.32 2004/12/15 17:35:44 jycli Exp $
+Effctive changed lines in this class: 3
+
+ * $Id: MultipleNodeCounter.java,v 1.4 2004/02/16 22:54:59 mi |	 * $Id: MultipleNodeCounter.java,v 1.6 2005/02/04 18:26:12 jy
+Effctive changed lines in this class: 2
+
+ * $Id: NodeCounter.java,v 1.10 2004/02/16 22:54:59 minchau E |	 * $Id: NodeCounter.java,v 1.14 2005/02/04 18:26:12 jycli Exp
+Effctive changed lines in this class: 7
+
+ * $Id: ObjectFactory.java,v 1.2 2004/02/23 10:29:35 aruny Ex |	 * $Id: ObjectFactory.java,v 1.5 2004/08/17 18:48:35 jycli Ex
+Effctive changed lines in this class: 58
+
+ * $Id: SAXImpl.java,v 1.19 2004/02/24 04:21:50 zongaro Exp $ |	 * $Id: SAXImpl.java,v 1.20 2004/12/15 17:35:44 jycli Exp $
+Effctive changed lines in this class: 36
+
+ * $Id: SimpleResultTreeImpl.java,v 1.7 2004/02/16 22:54:59 m |	 * $Id: SimpleResultTreeImpl.java,v 1.8 2004/12/15 17:35:44 j
+Effctive changed lines in this class: 5
+
+ * $Id: SingleNodeCounter.java,v 1.5 2004/02/16 22:54:59 minc |	 * $Id: SingleNodeCounter.java,v 1.8 2005/03/11 23:26:09 jycl
+Effctive changed lines in this class: 1
+
+ * $Id: AbstractTranslet.java,v 1.52 2004/02/16 22:55:55 minc |	 * $Id: AbstractTranslet.java,v 1.58 2005/07/11 13:18:28 zong
+Effctive changed lines in this class: 14
+
+ * $Id: BasisLibrary.java,v 1.76 2004/02/27 01:59:31 zongaro  |	 * $Id: BasisLibrary.java,v 1.83 2005/07/13 04:43:27 minchau 
+Effctive changed lines in this class: 29
+
+ * $Id: ErrorMessages.java,v 1.10 2004/02/24 03:55:48 zongaro |	 * $Id: ErrorMessages.java,v 1.12 2005/06/08 13:10:08 mkwan E
+Effctive changed lines in this class: 55
+
+ * $Id: ErrorMessages_ca.java,v 1.2 2004/02/16 22:55:54 minch |	 * $Id: ErrorMessages_ca.java,v 1.3 2004/12/15 17:35:45 jycli
+Effctive changed lines in this class: 10
+
+ * $Id: ErrorMessages_cs.java,v 1.2 2004/02/16 22:55:55 minch |	 * $Id: ErrorMessages_cs.java,v 1.3 2004/12/15 17:35:45 jycli
+Effctive changed lines in this class: 6
+
+ * $Id: ErrorMessages_de.java,v 1.2 2004/02/16 22:55:54 minch |	 * $Id: ErrorMessages_de.java,v 1.3 2004/12/15 17:35:45 jycli
+Effctive changed lines in this class: 6
+
+ * $Id: ErrorMessages_es.java,v 1.2 2004/02/16 22:55:54 minch |	 * $Id: ErrorMessages_es.java,v 1.3 2004/12/15 17:35:45 jycli
+Effctive changed lines in this class: 6
+
+ * $Id: ErrorMessages_fr.java,v 1.2 2004/02/16 22:55:54 minch |	 * $Id: ErrorMessages_fr.java,v 1.3 2004/12/15 17:35:45 jycli
+Effctive changed lines in this class: 6
+
+ * $Id: ErrorMessages_hu.java,v 1.2 2004/02/16 22:55:55 minch |	 * $Id: ErrorMessages_hu.java,v 1.3 2004/12/15 17:35:45 jycli
+Effctive changed lines in this class: 6
+
+ * $Id: ErrorMessages_it.java,v 1.2 2004/02/16 22:55:54 minch |	 * $Id: ErrorMessages_it.java,v 1.3 2004/12/15 17:35:45 jycli
+Effctive changed lines in this class: 6
+
+ * $Id: ErrorMessages_ja.java,v 1.2 2004/02/16 22:55:55 minch |	 * $Id: ErrorMessages_ja.java,v 1.3 2004/12/15 17:35:45 jycli
+Effctive changed lines in this class: 6
+
+ * $Id: ErrorMessages_ko.java,v 1.2 2004/02/16 22:55:55 minch |	 * $Id: ErrorMessages_ko.java,v 1.3 2004/12/15 17:35:45 jycli
+Effctive changed lines in this class: 6
+
+ * $Id: ErrorMessages_no.java,v 1.5 2004/02/16 22:55:54 minch |	 * $Id: ErrorMessages_no.java,v 1.6 2004/12/15 17:35:45 jycli
+Effctive changed lines in this class: 6
+
+ * $Id: ErrorMessages_pl.java,v 1.2 2004/02/16 22:55:54 minch |	 * $Id: ErrorMessages_pl.java,v 1.3 2004/12/15 17:35:46 jycli
+Effctive changed lines in this class: 6
+
+ * $Id: ErrorMessages_pt_BR.java,v 1.2 2004/02/16 22:55:55 mi |	 * $Id: ErrorMessages_pt_BR.java,v 1.3 2004/12/15 17:35:46 jy
+Effctive changed lines in this class: 6
+
+ * $Id: ErrorMessages_ru.java,v 1.2 2004/02/16 22:55:54 minch |	 * $Id: ErrorMessages_ru.java,v 1.3 2004/12/15 17:35:46 jycli
+Effctive changed lines in this class: 6
+
+ * $Id: ErrorMessages_sk.java,v 1.2 2004/02/16 22:55:54 minch |	 * $Id: ErrorMessages_sk.java,v 1.3 2004/12/15 17:35:46 jycli
+Effctive changed lines in this class: 6
+
+ * $Id: ErrorMessages_tr.java,v 1.2 2004/02/16 22:55:54 minch |	 * $Id: ErrorMessages_tr.java,v 1.3 2004/12/15 17:35:46 jycli
+Effctive changed lines in this class: 6
+
+ * $Id: ErrorMessages_zh_CN.java,v 1.2 2004/02/16 22:55:54 mi |	 * $Id: ErrorMessages_zh_CN.java,v 1.3 2004/12/15 17:35:46 jy
+Effctive changed lines in this class: 6
+
+ * $Id: ErrorMessages_zh_TW.java,v 1.2 2004/02/16 22:55:54 mi |	 * $Id: ErrorMessages_zh_TW.java,v 1.3 2004/12/15 17:35:46 jy
+Effctive changed lines in this class: 6
+
+ * $Id: ObjectFactory.java,v 1.1 2004/02/23 17:29:35 aruny Ex |	 * $Id: ObjectFactory.java,v 1.4 2004/08/17 18:48:36 jycli Ex
+Effctive changed lines in this class: 6
+
+ * $Id: Operators.java,v 1.3 2004/02/16 22:55:54 minchau Exp  |	 * $Id: Operators.java,v 1.6 2004/12/15 17:35:46 jycli Exp $
+Effctive changed lines in this class: 36
+
+ * $Id: TransletOutputHandlerFactory.java,v 1.16 2004/02/16 2 |	 * $Id: TransletOutputHandlerFactory.java,v 1.17 2005/05/20 1
+Effctive changed lines in this class: 14
+
+ * $Id: DOM2TO.java,v 1.9 2004/02/20 19:30:40 bhakti Exp $    |	 * $Id: DOM2TO.java,v 1.10 2004/12/10 18:39:15 santiagopg Exp
+Effctive changed lines in this class: 6
+
+ * $Id: ObjectFactory.java,v 1.2 2004/02/23 10:29:36 aruny Ex |	 * $Id: ObjectFactory.java,v 1.5 2004/08/17 18:48:36 jycli Ex
+Effctive changed lines in this class: 14
+
+ * $Id: SAX2DOM.java,v 1.18 2004/02/16 22:57:21 minchau Exp $ |	 * $Id: SAX2DOM.java,v 1.20 2005/05/20 15:30:23 mkwan Exp $
+Effctive changed lines in this class: 36
+
+ * $Id: SmartTransformerFactoryImpl.java,v 1.11 2004/02/23 10 |	 * $Id: SmartTransformerFactoryImpl.java,v 1.13 2005/05/31 15
+Effctive changed lines in this class: 42
+
+ * $Id: TemplatesHandlerImpl.java,v 1.25 2004/02/16 22:57:21  |	 * $Id: TemplatesHandlerImpl.java,v 1.26 2005/06/08 13:10:08 
+Effctive changed lines in this class: 33
+
+ * $Id: TemplatesImpl.java,v 1.34 2004/02/23 10:29:36 aruny E |	 * $Id: TemplatesImpl.java,v 1.36 2005/06/08 13:10:08 mkwan E
+Effctive changed lines in this class: 6
+
+ * $Id: TrAXFilter.java,v 1.8 2004/02/16 22:57:21 minchau Exp |	 * $Id: TrAXFilter.java,v 1.9 2005/06/08 13:10:08 mkwan Exp $
+Effctive changed lines in this class: 6
+
+ * $Id: TransformerFactoryImpl.java,v 1.73 2004/02/23 10:29:3 |	 * $Id: TransformerFactoryImpl.java,v 1.79 2005/06/08 13:10:0
+Effctive changed lines in this class: 9
+
+ * $Id: TransformerHandlerImpl.java,v 1.18 2004/02/16 22:57:2 |	 * $Id: TransformerHandlerImpl.java,v 1.19 2004/07/15 05:07:2
+Effctive changed lines in this class: 52
+
+ * $Id: TransformerImpl.java,v 1.80 2004/02/23 21:33:15 igorh |	 * $Id: TransformerImpl.java,v 1.86 2005/06/08 13:10:08 mkwan
+Effctive changed lines in this class: 4
+
+ * $Id: Util.java,v 1.10 2004/02/16 22:57:21 minchau Exp $    |	 * $Id: Util.java,v 1.12 2005/06/08 13:10:08 mkwan Exp $
+Effctive changed lines in this class: 41
+
+ * $Id: IntegerArray.java,v 1.8 2004/02/16 22:58:24 minchau E |	 * $Id: IntegerArray.java,v 1.9 2004/06/21 19:05:16 igorh Exp
+Effctive changed lines in this class: 10
+
+ * $Id: JavaCupRedirect.java,v 1.3 2004/02/16 22:58:24 mincha |	 * $Id: JavaCupRedirect.java,v 1.4 2004/12/15 17:35:47 jycli 
+Effctive changed lines in this class: 1
+
+ * $Id: Axis.java,v 1.5 2004/02/16 23:03:44 minchau Exp $     |	 * $Id: Axis.java,v 1.6 2004/12/15 17:35:47 jycli Exp $
+Effctive changed lines in this class: 9
+
+ * $Id: DTM.java,v 1.13 2004/02/16 23:03:44 minchau Exp $     |	 * $Id: DTM.java,v 1.14 2005/01/23 00:52:40 mcnamara Exp $
+Effctive changed lines in this class: 17
+
+ * $Id: DTMAxisTraverser.java,v 1.4 2004/02/16 23:03:44 minch |	 * $Id: DTMAxisTraverser.java,v 1.5 2005/01/23 00:52:40 mcnam
+There is NO effctive change in this class
+
+ * $Id: DTMConfigurationException.java,v 1.4 2004/02/16 23:03 |	 * $Id: DTMConfigurationException.java,v 1.6 2005/01/23 00:52
+There is NO effctive change in this class
+
+ * $Id: DTMDOMException.java,v 1.5 2004/02/16 23:03:44 mincha |	 * $Id: DTMDOMException.java,v 1.6 2004/08/17 18:57:21 jycli 
+Effctive changed lines in this class: 1
+
+ * $Id: DTMException.java,v 1.7 2004/02/16 23:03:44 minchau E |	 * $Id: DTMException.java,v 1.8 2004/08/17 16:17:42 mcnamara 
+Effctive changed lines in this class: 1
+
+ * $Id: DTMManager.java,v 1.18 2004/02/23 10:29:36 aruny Exp  |	 * $Id: DTMManager.java,v 1.20 2005/01/24 04:04:40 mcnamara E
+Effctive changed lines in this class: 10
+
+ * $Id: ObjectFactory.java,v 1.2 2004/02/23 10:29:36 aruny Ex |	 * $Id: ObjectFactory.java,v 1.5 2004/08/17 18:57:21 jycli Ex
+Effctive changed lines in this class: 13
+
+ * $Id: CoroutineManager.java,v 1.10 2004/02/16 23:06:11 minc |	 * $Id: CoroutineManager.java,v 1.11 2005/01/24 00:34:35 mcna
+Effctive changed lines in this class: 36
+
+ * $Id: DTMAxisIterNodeList.java,v 1.3 2004/02/16 23:06:11 mi |	 * $Id: DTMAxisIterNodeList.java,v 1.4 2005/01/24 00:34:35 mc
+There is NO effctive change in this class
+
+ * $Id: DTMChildIterNodeList.java,v 1.3 2004/02/16 23:06:11 m |	 * $Id: DTMChildIterNodeList.java,v 1.4 2005/01/24 00:34:35 m
+There is NO effctive change in this class
+
+ * $Id: DTMDefaultBase.java,v 1.39 2004/02/16 23:06:11 mincha |	 * $Id: DTMDefaultBase.java,v 1.43 2005/07/25 19:23:05 johng 
+There is NO effctive change in this class
+
+ * $Id: DTMDefaultBaseIterators.java,v 1.21 2004/02/16 23:06: |	 * $Id: DTMDefaultBaseIterators.java,v 1.23 2005/01/24 00:34:
+Effctive changed lines in this class: 3
+
+ * $Id: DTMDefaultBaseTraversers.java,v 1.19 2004/02/16 23:06 |	 * $Id: DTMDefaultBaseTraversers.java,v 1.21 2005/01/24 00:34
+Effctive changed lines in this class: 7
+
+ * $Id: DTMDocumentImpl.java,v 1.13 2004/02/16 23:06:11 minch |	 * $Id: DTMDocumentImpl.java,v 1.16 2005/01/24 04:04:40 mcnam
+Effctive changed lines in this class: 3
+
+ * $Id: DTMManagerDefault.java,v 1.51 2004/02/16 23:06:11 min |	 * $Id: DTMManagerDefault.java,v 1.52 2004/11/22 17:53:43 mkw
+Effctive changed lines in this class: 1
+
+ * $Id: DTMNamedNodeMap.java,v 1.8 2004/02/16 23:06:11 mincha |	 * $Id: DTMNamedNodeMap.java,v 1.11 2005/01/24 00:34:35 mcnam
+Effctive changed lines in this class: 14
+
+ * $Id: DTMNodeList.java,v 1.11 2004/02/16 23:06:11 minchau E |	 * $Id: DTMNodeList.java,v 1.12 2005/01/24 00:34:35 mcnamara 
+Effctive changed lines in this class: 18
+
+ * $Id: DTMNodeListBase.java,v 1.3 2004/02/16 23:06:11 mincha |	 * $Id: DTMNodeListBase.java,v 1.4 2005/01/24 00:34:35 mcnama
+There is NO effctive change in this class
+
+ * $Id: DTMNodeProxy.java,v 1.20 2004/02/16 23:06:11 minchau  |	 * $Id: DTMNodeProxy.java,v 1.24 2005/06/22 15:27:43 mkwan Ex
+There is NO effctive change in this class
+
+ * $Id: DTMTreeWalker.java,v 1.6 2004/02/16 23:06:11 minchau  |	 * $Id: DTMTreeWalker.java,v 1.7 2005/01/24 00:34:35 mcnamara
+Effctive changed lines in this class: 579
+
+ * $Id: ExpandedNameTable.java,v 1.13 2004/02/16 23:06:11 min |	 * $Id: ExpandedNameTable.java,v 1.14 2005/01/24 00:34:35 mcn
+There is NO effctive change in this class
+
+ * $Id: IncrementalSAXSource_Filter.java,v 1.11 2004/02/16 23 |	 * $Id: IncrementalSAXSource_Filter.java,v 1.12 2004/08/17 18
+There is NO effctive change in this class
+
+ * $Id: IncrementalSAXSource_Xerces.java,v 1.15 2004/02/23 10 |	 * $Id: IncrementalSAXSource_Xerces.java,v 1.16 2004/12/15 17
+Effctive changed lines in this class: 1
+
+ * $Id: ObjectFactory.java,v 1.2 2004/02/23 10:29:36 aruny Ex |	 * $Id: ObjectFactory.java,v 1.5 2004/08/17 18:57:21 jycli Ex
+Effctive changed lines in this class: 1
+
+ * $Id: DOM2DTM.java,v 1.34 2004/02/16 23:06:53 minchau Exp $ |	 * $Id: DOM2DTM.java,v 1.35 2005/01/24 00:34:36 mcnamara Exp 
+Effctive changed lines in this class: 36
+
+ * $Id: DOM2DTMdefaultNamespaceDeclarationNode.java,v 1.5 200 |	 * $Id: DOM2DTMdefaultNamespaceDeclarationNode.java,v 1.6 200
+There is NO effctive change in this class
+
+ * $Id: SAX2DTM.java,v 1.36 2004/02/17 04:07:37 minchau Exp $ |	 * $Id: SAX2DTM.java,v 1.39 2005/01/27 15:17:41 zongaro Exp $
+Effctive changed lines in this class: 283
+
+ * $Id: SAX2DTM2.java,v 1.10 2004/02/24 04:22:12 zongaro Exp  |	 * $Id: SAX2DTM2.java,v 1.15 2005/01/27 15:28:02 zongaro Exp 
+Effctive changed lines in this class: 17
+
+ * $Id: SAX2RTFDTM.java,v 1.9 2004/02/17 04:07:37 minchau Exp |	 * $Id: SAX2RTFDTM.java,v 1.10 2005/01/24 00:34:36 mcnamara E
+Effctive changed lines in this class: 76
+
+ * $Id: XMLErrorResources.java,v 1.7 2004/02/17 04:14:26 minc |	 * $Id: XMLErrorResources.java,v 1.10 2005/06/29 19:30:33 jyc
+There is NO effctive change in this class
+
+ * $Id: XMLErrorResources_ca.java,v 1.2 2004/02/17 04:14:26 m |	 * $Id: XMLErrorResources_ca.java,v 1.3 2004/12/15 17:35:50 j
+Effctive changed lines in this class: 69
+
+ * $Id: XMLErrorResources_cs.java,v 1.2 2004/02/17 04:14:26 m |	 * $Id: XMLErrorResources_cs.java,v 1.3 2004/12/15 17:35:50 j
+Effctive changed lines in this class: 7
+
+ * $Id: XMLErrorResources_de.java,v 1.4 2004/02/17 04:14:26 m |	 * $Id: XMLErrorResources_de.java,v 1.5 2004/12/15 17:35:50 j
+Effctive changed lines in this class: 7
+
+ * $Id: XMLErrorResources_es.java,v 1.4 2004/02/17 04:14:26 m |	 * $Id: XMLErrorResources_es.java,v 1.5 2004/12/15 17:35:50 j
+Effctive changed lines in this class: 7
+
+ * $Id: XMLErrorResources_fr.java,v 1.4 2004/02/17 04:14:26 m |	 * $Id: XMLErrorResources_fr.java,v 1.5 2004/12/15 17:35:50 j
+Effctive changed lines in this class: 7
+
+ * $Id: XMLErrorResources_hu.java,v 1.2 2004/02/17 04:14:26 m |	 * $Id: XMLErrorResources_hu.java,v 1.3 2004/12/15 17:35:50 j
+Effctive changed lines in this class: 7
+
+ * $Id: XMLErrorResources_it.java,v 1.4 2004/02/17 04:14:26 m |	 * $Id: XMLErrorResources_it.java,v 1.5 2004/12/15 17:35:50 j
+Effctive changed lines in this class: 7
+
+ * $Id: XMLErrorResources_ja.java,v 1.4 2004/02/17 04:14:26 m |	 * $Id: XMLErrorResources_ja.java,v 1.5 2004/12/15 17:35:50 j
+Effctive changed lines in this class: 7
+
+ * $Id: XMLErrorResources_ko.java,v 1.4 2004/02/17 04:14:26 m |	 * $Id: XMLErrorResources_ko.java,v 1.5 2004/12/15 17:35:51 j
+Effctive changed lines in this class: 7
+
+ * $Id: XMLErrorResources_pl.java,v 1.2 2004/02/17 04:14:26 m |	 * $Id: XMLErrorResources_pl.java,v 1.3 2004/12/15 17:35:51 j
+Effctive changed lines in this class: 7
+
+ * $Id: XMLErrorResources_pt_BR.java,v 1.2 2004/02/17 04:14:2 |	 * $Id: XMLErrorResources_pt_BR.java,v 1.3 2004/12/15 17:35:5
+Effctive changed lines in this class: 7
+
+ * $Id: XMLErrorResources_ru.java,v 1.2 2004/02/17 04:14:26 m |	 * $Id: XMLErrorResources_ru.java,v 1.3 2004/12/15 17:35:51 j
+Effctive changed lines in this class: 7
+
+ * $Id: XMLErrorResources_sk.java,v 1.2 2004/02/17 04:14:26 m |	 * $Id: XMLErrorResources_sk.java,v 1.3 2004/12/15 17:35:51 j
+Effctive changed lines in this class: 7
+
+ * $Id: XMLErrorResources_sv.java,v 1.3 2004/02/17 04:14:26 m |	 * $Id: XMLErrorResources_sv.java,v 1.4 2004/12/15 17:35:51 j
+Effctive changed lines in this class: 7
+
+ * $Id: XMLErrorResources_tr.java,v 1.2 2004/02/17 04:14:26 m |	 * $Id: XMLErrorResources_tr.java,v 1.3 2004/12/15 17:35:51 j
+Effctive changed lines in this class: 7
+
+ * $Id: XMLErrorResources_zh_CN.java,v 1.4 2004/02/17 04:14:2 |	 * $Id: XMLErrorResources_zh_CN.java,v 1.5 2004/12/15 17:35:5
+Effctive changed lines in this class: 7
+
+ * $Id: XMLErrorResources_zh_TW.java,v 1.4 2004/02/17 04:14:2 |	 * $Id: XMLErrorResources_zh_TW.java,v 1.5 2004/12/15 17:35:5
+Effctive changed lines in this class: 7
+
+ * $Id: XMLMessages.java,v 1.5 2004/02/17 04:14:26 minchau Ex |	 * $Id: XMLMessages.java,v 1.7 2005/01/23 00:52:40 mcnamara E
+Effctive changed lines in this class: 7
+
+ * $Id: AttributesImplSerializer.java,v 1.4 2004/02/17 04:18: |	 * $Id: AttributesImplSerializer.java,v 1.6 2005/02/11 06:18:
+Effctive changed lines in this class: 2
+
+ * $Id: CharInfo.java,v 1.11 2004/02/23 10:29:37 aruny Exp $  |	 * $Id: CharInfo.java,v 1.19 2005/04/07 03:47:14 minchau Exp 
+Effctive changed lines in this class: 41
+
+ * $Id: DOMSerializer.java,v 1.3 2004/02/17 04:18:18 minchau  |	 * $Id: DOMSerializer.java,v 1.5 2005/03/16 20:54:11 minchau 
+Effctive changed lines in this class: 125
+
+ * $Id: ElemContext.java,v 1.2 2004/02/17 04:18:19 minchau Ex |	 * $Id: ElemContext.java,v 1.3 2004/10/14 21:45:06 minchau Ex
+There is NO effctive change in this class
+
+ * $Id: ElemDesc.java,v 1.4 2004/02/17 04:18:19 minchau Exp $ |	 * $Id: ElemDesc.java,v 1.7 2005/04/07 04:29:03 minchau Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: EmptySerializer.java,v 1.5 2004/02/17 04:18:19 mincha |	 * $Id: EmptySerializer.java,v 1.11 2005/04/07 04:29:03 minch
+Effctive changed lines in this class: 31
+
+ * $Id: EncodingInfo.java,v 1.2 2004/02/17 04:18:18 minchau E |	 * $Id: EncodingInfo.java,v 1.6 2005/08/04 23:57:06 minchau E
+Effctive changed lines in this class: 133
+
+ * $Id: Encodings.java,v 1.8 2004/02/23 10:29:37 aruny Exp $  |	 * $Id: Encodings.java,v 1.14 2005/08/03 19:20:31 minchau Exp
+Effctive changed lines in this class: 220
+
+ * $Id: ExtendedContentHandler.java,v 1.3 2004/02/17 04:18:18 |	 * $Id: ExtendedContentHandler.java,v 1.7 2005/02/18 04:35:18
+Effctive changed lines in this class: 132
+
+ * $Id: ExtendedLexicalHandler.java,v 1.2 2004/02/17 04:18:18 |	 * $Id: ExtendedLexicalHandler.java,v 1.4 2004/10/14 21:45:05
+Effctive changed lines in this class: 15
+
+ * $Id: Method.java,v 1.2 2004/02/17 04:18:19 minchau Exp $   |	 * $Id: Method.java,v 1.4 2005/04/07 04:29:03 minchau Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: NamespaceMappings.java,v 1.6 2004/02/17 04:18:18 minc |	 * $Id: NamespaceMappings.java,v 1.9 2005/04/07 04:29:03 minc
+Effctive changed lines in this class: 3
+
+ * $Id: ObjectFactory.java,v 1.2 2004/02/23 10:29:37 aruny Ex |	 * $Id: ObjectFactory.java,v 1.7 2004/10/14 21:45:05 minchau 
+Effctive changed lines in this class: 57
+
+ * $Id: OutputPropertiesFactory.java,v 1.5 2004/02/18 22:57:4 |	 * $Id: OutputPropertiesFactory.java,v 1.11 2005/06/01 19:17:
+Effctive changed lines in this class: 42
+
+ * $Id: OutputPropertyUtils.java,v 1.2 2004/02/17 04:18:18 mi |	 * $Id: OutputPropertyUtils.java,v 1.4 2005/04/07 04:29:03 mi
+Effctive changed lines in this class: 21
+
+ * $Id: SecuritySupport.java,v 1.3 2004/02/23 10:29:37 aruny  |	 * $Id: SecuritySupport.java,v 1.4 2004/04/01 18:45:30 mincha
+Effctive changed lines in this class: 1
+
+ * $Id: SecuritySupport12.java,v 1.3 2004/02/23 10:29:37 arun |	 * $Id: SecuritySupport12.java,v 1.4 2004/04/01 18:45:30 minc
+Effctive changed lines in this class: 2
+
+ * $Id: SerializationHandler.java,v 1.4 2004/02/17 04:18:18 m |	 * $Id: SerializationHandler.java,v 1.9 2005/04/07 04:29:03 m
+Effctive changed lines in this class: 2
+
+ * $Id: Serializer.java,v 1.2 2004/02/17 04:18:19 minchau Exp |	 * $Id: Serializer.java,v 1.5 2005/04/07 04:29:03 minchau Exp
+Effctive changed lines in this class: 8
+
+ * $Id: SerializerBase.java,v 1.10 2004/02/17 04:18:18 mincha |	 * $Id: SerializerBase.java,v 1.20 2005/04/07 04:29:03 mincha
+Effctive changed lines in this class: 6
+
+ * $Id: SerializerConstants.java,v 1.2 2004/02/17 04:18:19 mi |	 * $Id: SerializerConstants.java,v 1.6 2005/03/02 23:08:08 yt
+Effctive changed lines in this class: 65
+
+ * $Id: SerializerFactory.java,v 1.6 2004/02/23 10:29:37 arun |	 * $Id: SerializerFactory.java,v 1.10 2005/04/07 04:29:03 min
+Effctive changed lines in this class: 8
+
+ * $Id: SerializerTrace.java,v 1.2 2004/02/17 04:18:18 mincha |	 * $Id: SerializerTrace.java,v 1.3 2004/10/14 21:45:05 mincha
+Effctive changed lines in this class: 23
+
+ * $Id: SerializerTraceWriter.java,v 1.2 2004/02/17 04:18:18  |	 * $Id: SerializerTraceWriter.java,v 1.4 2004/10/14 21:45:05 
+There is NO effctive change in this class
+
+ * $Id: ToHTMLSAXHandler.java,v 1.8 2004/02/17 04:18:19 minch |	 * $Id: ToHTMLSAXHandler.java,v 1.14 2005/07/15 16:01:12 minc
+Effctive changed lines in this class: 14
+
+ * $Id: ToHTMLStream.java,v 1.28 2004/02/18 22:57:44 minchau  |	 * $Id: ToHTMLStream.java,v 1.43 2005/08/03 19:20:31 minchau 
+Effctive changed lines in this class: 11
+
+ * $Id: ToSAXHandler.java,v 1.10 2004/02/17 04:18:18 minchau  |	 * $Id: ToSAXHandler.java,v 1.16 2005/04/07 04:29:03 minchau 
+Effctive changed lines in this class: 339
+
+ * $Id: ToStream.java,v 1.29 2004/02/18 22:57:44 minchau Exp  |	 * $Id: ToStream.java,v 1.45 2005/08/04 23:57:06 minchau Exp 
+Effctive changed lines in this class: 10
+
+ * $Id: ToTextSAXHandler.java,v 1.5 2004/02/17 04:18:18 minch |	 * $Id: ToTextSAXHandler.java,v 1.8 2005/04/07 04:29:03 minch
+Effctive changed lines in this class: 509
+
+ * $Id: ToTextStream.java,v 1.15 2004/02/17 04:18:18 minchau  |	 * $Id: ToTextStream.java,v 1.22 2005/08/03 19:20:31 minchau 
+Effctive changed lines in this class: 3
+
+ * $Id: ToUnknownStream.java,v 1.8 2004/02/17 04:18:18 mincha |	 * $Id: ToUnknownStream.java,v 1.12 2005/04/07 04:29:03 minch
+Effctive changed lines in this class: 105
+
+ * $Id: ToXMLSAXHandler.java,v 1.13 2004/02/17 04:18:19 minch |	 * $Id: ToXMLSAXHandler.java,v 1.17 2005/04/07 04:29:03 minch
+Effctive changed lines in this class: 4
+
+ * $Id: ToXMLStream.java,v 1.13 2004/02/18 22:57:44 minchau E |	 * $Id: ToXMLStream.java,v 1.21 2005/08/03 19:20:31 minchau E
+Effctive changed lines in this class: 13
+
+ * $Id: TransformStateSetter.java,v 1.2 2004/02/17 04:18:19 m |	 * $Id: TransformStateSetter.java,v 1.4 2005/01/23 00:52:41 m
+Effctive changed lines in this class: 49
+
+ * $Id: WriterToASCI.java,v 1.2 2004/02/17 04:18:18 minchau E |	 * $Id: WriterToASCI.java,v 1.5 2005/01/23 00:52:41 mcnamara 
+Effctive changed lines in this class: 5
+
+ * $Id: WriterToUTF8Buffered.java,v 1.5 2004/02/17 04:18:18 m |	 * $Id: WriterToUTF8Buffered.java,v 1.9 2005/03/23 17:54:05 y
+Effctive changed lines in this class: 5
+
+ * $Id: XSLOutputAttributes.java,v 1.2 2004/02/17 04:18:18 mi |	 * $Id: XSLOutputAttributes.java,v 1.3 2004/08/31 05:10:51 mi
+Effctive changed lines in this class: 138
+
+ * $Id: AttList.java,v 1.12 2004/02/17 04:21:14 minchau Exp $ |	 * $Id: AttList.java,v 1.13 2005/01/23 00:52:41 mcnamara Exp 
+Effctive changed lines in this class: 2
+
+ * $Id: DOMBuilder.java,v 1.19 2004/02/25 13:07:51 aruny Exp  |	 * $Id: DOMBuilder.java,v 1.21 2005/05/20 14:25:13 mkwan Exp 
+Effctive changed lines in this class: 1
+
+ * $Id: DOMHelper.java,v 1.6 2004/02/17 04:21:14 minchau Exp  |	 * $Id: DOMHelper.java,v 1.7 2005/06/07 15:35:52 mkwan Exp $
+Effctive changed lines in this class: 39
+
+ * $Id: DefaultErrorHandler.java,v 1.15 2004/02/17 04:21:14 m |	 * $Id: DefaultErrorHandler.java,v 1.16 2005/06/03 15:52:46 m
+Effctive changed lines in this class: 16
+
+ * $Id: FastStringBuffer.java,v 1.25 2004/02/17 04:21:14 minc |	 * $Id: FastStringBuffer.java,v 1.27 2005/01/23 00:52:41 mcna
+Effctive changed lines in this class: 20
+
+ * $Id: IntVector.java,v 1.8 2004/02/17 04:21:14 minchau Exp  |	 * $Id: IntVector.java,v 1.9 2005/01/23 00:52:41 mcnamara Exp
+Effctive changed lines in this class: 1
+
+ * $Id: ListingErrorHandler.java,v 1.7 2004/02/17 04:21:14 mi |	 * $Id: ListingErrorHandler.java,v 1.9 2005/01/24 04:04:40 mc
+There is NO effctive change in this class
+
+ * $Id: MutableAttrListImpl.java,v 1.7 2004/02/17 04:21:14 mi |	 * $Id: MutableAttrListImpl.java,v 1.8 2004/08/17 18:57:22 jy
+There is NO effctive change in this class
+
+ * $Id: NSInfo.java,v 1.5 2004/02/17 04:21:14 minchau Exp $   |	 * $Id: NSInfo.java,v 1.6 2005/01/23 00:52:41 mcnamara Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: NameSpace.java,v 1.6 2004/02/17 04:21:14 minchau Exp  |	 * $Id: NameSpace.java,v 1.7 2004/08/17 18:57:22 jycli Exp $
+There is NO effctive change in this class
+
+ * $Id: NodeVector.java,v 1.9 2004/02/17 04:21:14 minchau Exp |	 * $Id: NodeVector.java,v 1.11 2005/01/23 00:52:41 mcnamara E
+Effctive changed lines in this class: 1
+
+ * $Id: ObjectPool.java,v 1.11 2004/02/17 04:21:14 minchau Ex |	 * $Id: ObjectPool.java,v 1.12 2004/08/17 18:57:22 jycli Exp 
+Effctive changed lines in this class: 37
+
+ * $Id: PrefixResolverDefault.java,v 1.9 2004/02/20 20:32:51  |	 * $Id: PrefixResolverDefault.java,v 1.10 2005/01/23 00:52:41
+Effctive changed lines in this class: 1
+
+ * $Id: QName.java,v 1.15 2004/02/17 04:21:14 minchau Exp $   |	 * $Id: QName.java,v 1.18 2005/03/23 17:54:05 ytalwar Exp $
+There is NO effctive change in this class
+
+ * $Id: SAXSourceLocator.java,v 1.8 2004/02/17 04:21:14 minch |	 * $Id: SAXSourceLocator.java,v 1.9 2004/08/17 18:57:22 jycli
+Effctive changed lines in this class: 8
+
+ * $Id: SerializableLocatorImpl.java,v 1.4 2004/02/17 04:21:1 |	 * $Id: SerializableLocatorImpl.java,v 1.5 2004/08/17 18:57:2
+Effctive changed lines in this class: 1
+
+ * $Id: StopParseException.java,v 1.2 2004/02/17 04:21:14 min |	 * $Id: StopParseException.java,v 1.3 2004/08/17 18:57:22 jyc
+Effctive changed lines in this class: 1
+
+ * $Id: StringVector.java,v 1.7 2004/02/17 04:21:14 minchau E |	 * $Id: StringVector.java,v 1.8 2004/08/17 18:57:22 jycli Exp
+Effctive changed lines in this class: 1
+
+ * $Id: StylesheetPIHandler.java,v 1.2 2004/02/17 04:21:14 mi |	 * $Id: StylesheetPIHandler.java,v 1.3 2005/01/23 01:02:10 mc
+Effctive changed lines in this class: 1
+
+ * $Id: SuballocatedByteVector.java,v 1.6 2004/02/17 04:21:14 |	 * $Id: SuballocatedByteVector.java,v 1.7 2005/01/23 01:02:10
+There is NO effctive change in this class
+
+ * $Id: SuballocatedIntVector.java,v 1.10 2004/02/17 04:21:14 |	 * $Id: SuballocatedIntVector.java,v 1.11 2005/01/23 01:02:10
+There is NO effctive change in this class
+
+ * $Id: ThreadControllerWrapper.java,v 1.3 2004/02/17 04:21:1 |	 * $Id: ThreadControllerWrapper.java,v 1.5 2005/01/23 01:02:1
+There is NO effctive change in this class
+
+ * $Id: URI.java,v 1.11 2004/02/17 04:21:14 minchau Exp $     |	 * $Id: URI.java,v 1.13 2005/02/22 21:35:41 ytalwar Exp $
+Effctive changed lines in this class: 7
+
+ * $Id: UnImplNode.java,v 1.10 2004/02/17 04:21:14 minchau Ex |	 * $Id: UnImplNode.java,v 1.13 2005/06/22 19:07:10 mkwan Exp 
+Effctive changed lines in this class: 8
+
+ * $Id: WrappedRuntimeException.java,v 1.6 2004/02/17 04:21:1 |	 * $Id: WrappedRuntimeException.java,v 1.7 2004/08/17 18:57:2
+Effctive changed lines in this class: 421
+
+ * $Id: WrongParserException.java,v 1.4 2004/02/17 04:21:14 m |	 * $Id: WrongParserException.java,v 1.5 2004/08/17 18:57:22 j
+Effctive changed lines in this class: 1
+
+ * $Id: XMLCharacterRecognizer.java,v 1.7 2004/02/17 04:21:14 |	 * $Id: XMLCharacterRecognizer.java,v 1.8 2005/01/23 01:02:10
+Effctive changed lines in this class: 3
+
+ * $Id: XMLReaderManager.java,v 1.2 2004/02/17 04:21:14 minch |	 * $Id: XMLReaderManager.java,v 1.5 2005/04/26 06:04:29 minch
+There is NO effctive change in this class
+
+ * $Id: XMLString.java,v 1.4 2004/02/17 04:21:14 minchau Exp  |	 * $Id: XMLString.java,v 1.5 2005/07/21 18:08:34 zongaro Exp 
+Effctive changed lines in this class: 2
+
+ * $Id: XMLStringDefault.java,v 1.3 2004/02/17 04:21:14 minch |	 * $Id: XMLStringDefault.java,v 1.4 2005/07/21 18:08:34 zonga
+There is NO effctive change in this class
+
+ * $Id: XResourceBundle.java,v 1.7 2004/02/17 04:22:15 mincha |	 * $Id: XResourceBundle.java,v 1.8 2004/12/15 17:35:52 jycli 
+Effctive changed lines in this class: 4
+
+ * $Id: XResources_cy.java,v 1.7 2004/02/17 04:22:15 minchau  |	 * $Id: XResources_cy.java,v 1.8 2004/12/15 17:35:52 jycli Ex
+Effctive changed lines in this class: 13
+
+ * $Id: XResources_de.java,v 1.6 2004/02/17 04:22:15 minchau  |	 * $Id: XResources_de.java,v 1.7 2004/12/15 17:35:52 jycli Ex
+Effctive changed lines in this class: 20
+
+ * $Id: XResources_el.java,v 1.7 2004/02/17 04:22:15 minchau  |	 * $Id: XResources_el.java,v 1.8 2004/12/15 17:35:52 jycli Ex
+Effctive changed lines in this class: 9
+
+ * $Id: XResources_en.java,v 1.6 2004/02/17 04:22:15 minchau  |	 * $Id: XResources_en.java,v 1.7 2004/12/15 17:35:52 jycli Ex
+Effctive changed lines in this class: 20
+
+ * $Id: XResources_es.java,v 1.6 2004/02/17 04:22:15 minchau  |	 * $Id: XResources_es.java,v 1.7 2004/12/15 17:35:52 jycli Ex
+Effctive changed lines in this class: 9
+
+ * $Id: XResources_fr.java,v 1.6 2004/02/17 04:22:15 minchau  |	 * $Id: XResources_fr.java,v 1.7 2004/12/15 17:35:52 jycli Ex
+Effctive changed lines in this class: 9
+
+ * $Id: XResources_he.java,v 1.6 2004/02/17 04:22:15 minchau  |	 * $Id: XResources_he.java,v 1.7 2004/12/15 17:35:52 jycli Ex
+Effctive changed lines in this class: 9
+
+ * $Id: XResources_hy.java,v 1.6 2004/02/17 04:22:15 minchau  |	 * $Id: XResources_hy.java,v 1.7 2004/12/15 17:35:52 jycli Ex
+Effctive changed lines in this class: 15
+
+ * $Id: XResources_it.java,v 1.6 2004/02/17 04:22:15 minchau  |	 * $Id: XResources_it.java,v 1.7 2004/12/15 17:35:52 jycli Ex
+Effctive changed lines in this class: 19
+
+ * $Id: XResources_ja_JP_A.java,v 1.7 2004/02/17 04:22:15 min |	 * $Id: XResources_ja_JP_A.java,v 1.8 2004/12/15 17:35:52 jyc
+Effctive changed lines in this class: 9
+
+ * $Id: XResources_ja_JP_HA.java,v 1.7 2004/02/17 04:22:15 mi |	 * $Id: XResources_ja_JP_HA.java,v 1.8 2004/12/15 17:35:53 jy
+Effctive changed lines in this class: 19
+
+ * $Id: XResources_ja_JP_HI.java,v 1.8 2004/02/17 04:22:15 mi |	 * $Id: XResources_ja_JP_HI.java,v 1.9 2004/12/15 17:35:53 jy
+Effctive changed lines in this class: 19
+
+ * $Id: XResources_ja_JP_I.java,v 1.8 2004/02/17 04:22:15 min |	 * $Id: XResources_ja_JP_I.java,v 1.9 2004/12/15 17:35:53 jyc
+Effctive changed lines in this class: 19
+
+ * $Id: XResources_ka.java,v 1.6 2004/02/17 04:22:15 minchau  |	 * $Id: XResources_ka.java,v 1.7 2004/12/15 17:35:53 jycli Ex
+Effctive changed lines in this class: 18
+
+ * $Id: XResources_ko.java,v 1.6 2004/02/17 04:22:15 minchau  |	 * $Id: XResources_ko.java,v 1.7 2004/12/15 17:35:53 jycli Ex
+Effctive changed lines in this class: 20
+
+ * $Id: XResources_sv.java,v 1.6 2004/02/17 04:22:15 minchau  |	 * $Id: XResources_sv.java,v 1.7 2004/12/15 17:35:53 jycli Ex
+Effctive changed lines in this class: 22
+
+ * $Id: XResources_zh_CN.java,v 1.8 2004/02/17 04:22:15 minch |	 * $Id: XResources_zh_CN.java,v 1.9 2004/12/15 17:35:53 jycli
+Effctive changed lines in this class: 9
+
+ * $Id: XResources_zh_TW.java,v 1.8 2004/02/17 04:22:15 minch |	 * $Id: XResources_zh_TW.java,v 1.9 2004/12/15 17:35:53 jycli
+Effctive changed lines in this class: 18
+
+ * $Id: CachedXPathAPI.java,v 1.5 2004/02/17 04:30:02 minchau |	 * $Id: CachedXPathAPI.java,v 1.7 2005/01/24 20:51:23 zongaro
+Effctive changed lines in this class: 19
+
+ * $Id: Expression.java,v 1.23 2004/02/17 04:30:02 minchau Ex |	 * $Id: Expression.java,v 1.25 2005/01/23 01:02:10 mcnamara E
+There is NO effctive change in this class
+
+ * $Id: FoundIndex.java,v 1.5 2004/02/17 04:30:02 minchau Exp |	 * $Id: FoundIndex.java,v 1.6 2004/08/17 19:25:33 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: NodeSet.java,v 1.21 2004/02/17 04:30:02 minchau Exp $ |	 * $Id: NodeSet.java,v 1.22 2005/01/23 01:02:10 mcnamara Exp 
+Effctive changed lines in this class: 1
+
+ * $Id: NodeSetDTM.java,v 1.15 2004/02/17 04:30:02 minchau Ex |	 * $Id: NodeSetDTM.java,v 1.17 2005/01/23 01:02:10 mcnamara E
+There is NO effctive change in this class
+
+ * $Id: SourceTreeManager.java,v 1.34 2004/02/17 04:30:02 min |	 * $Id: SourceTreeManager.java,v 1.35 2005/01/23 01:02:10 mcn
+Effctive changed lines in this class: 1
+
+ * $Id: VariableStack.java,v 1.46 2004/02/17 04:30:02 minchau |	 * $Id: VariableStack.java,v 1.47 2005/01/23 01:02:10 mcnamar
+There is NO effctive change in this class
+
+ * $Id: XPath.java,v 1.30 2004/02/17 04:30:02 minchau Exp $   |	 * $Id: XPath.java,v 1.32 2004/12/15 17:35:55 jycli Exp $
+There is NO effctive change in this class
+
+ * $Id: XPathAPI.java,v 1.17 2004/02/17 04:30:02 minchau Exp  |	 * $Id: XPathAPI.java,v 1.18 2005/01/23 01:02:10 mcnamara Exp
+Effctive changed lines in this class: 49
+
+ * $Id: XPathContext.java,v 1.52 2004/02/17 04:30:02 minchau  |	 * $Id: XPathContext.java,v 1.55 2005/06/07 15:35:52 mkwan Ex
+There is NO effctive change in this class
+
+ * $Id: XPathException.java,v 1.12 2004/02/17 04:30:02 mincha |	 * $Id: XPathException.java,v 1.13 2004/08/17 16:18:27 mcnama
+Effctive changed lines in this class: 45
+
+ * $Id: XPathProcessorException.java,v 1.6 2004/02/17 04:30:0 |	 * $Id: XPathProcessorException.java,v 1.7 2004/08/17 19:25:3
+Effctive changed lines in this class: 12
+
+ * $Id: AttributeIterator.java,v 1.15 2004/02/17 04:32:08 min |	 * $Id: AttributeIterator.java,v 1.16 2004/08/17 19:25:34 jyc
+Effctive changed lines in this class: 1
+
+ * $Id: AxesWalker.java,v 1.28 2004/02/17 04:32:08 minchau Ex |	 * $Id: AxesWalker.java,v 1.29 2004/08/17 19:25:34 jycli Exp 
+Effctive changed lines in this class: 1
+
+ * $Id: BasicTestIterator.java,v 1.6 2004/02/17 04:32:08 minc |	 * $Id: BasicTestIterator.java,v 1.7 2004/08/17 19:25:34 jycl
+Effctive changed lines in this class: 1
+
+ * $Id: ChildIterator.java,v 1.15 2004/02/17 04:32:08 minchau |	 * $Id: ChildIterator.java,v 1.17 2004/08/17 19:25:34 jycli E
+Effctive changed lines in this class: 1
+
+ * $Id: ChildTestIterator.java,v 1.20 2004/02/17 04:32:08 min |	 * $Id: ChildTestIterator.java,v 1.22 2005/01/23 01:02:10 mcn
+Effctive changed lines in this class: 4
+
+ * $Id: DescendantIterator.java,v 1.22 2004/02/17 04:32:08 mi |	 * $Id: DescendantIterator.java,v 1.25 2005/01/23 01:02:10 mc
+Effctive changed lines in this class: 1
+
+ * $Id: FilterExprIterator.java,v 1.5 2004/02/17 04:32:08 min |	 * $Id: FilterExprIterator.java,v 1.7 2005/01/23 01:02:10 mcn
+Effctive changed lines in this class: 3
+
+ * $Id: FilterExprIteratorSimple.java,v 1.5 2004/02/17 04:32: |	 * $Id: FilterExprIteratorSimple.java,v 1.7 2005/01/23 01:02:
+Effctive changed lines in this class: 1
+
+ * $Id: FilterExprWalker.java,v 1.24 2004/02/17 04:32:08 minc |	 * $Id: FilterExprWalker.java,v 1.26 2005/01/23 01:02:10 mcna
+Effctive changed lines in this class: 1
+
+ * $Id: IteratorPool.java,v 1.8 2004/02/17 04:32:08 minchau E |	 * $Id: IteratorPool.java,v 1.9 2004/08/17 19:25:34 jycli Exp
+Effctive changed lines in this class: 1
+
+ * $Id: LocPathIterator.java,v 1.41 2004/02/17 04:32:08 minch |	 * $Id: LocPathIterator.java,v 1.43 2005/01/23 01:02:10 mcnam
+Effctive changed lines in this class: 1
+
+ * $Id: MatchPatternIterator.java,v 1.8 2004/02/17 04:32:08 m |	 * $Id: MatchPatternIterator.java,v 1.11 2005/01/23 01:02:10 
+Effctive changed lines in this class: 1
+
+ * $Id: NodeSequence.java,v 1.11 2004/02/17 04:32:08 minchau  |	 * $Id: NodeSequence.java,v 1.14 2005/01/23 01:02:10 mcnamara
+Effctive changed lines in this class: 2
+
+ * $Id: OneStepIterator.java,v 1.15 2004/02/17 04:32:08 minch |	 * $Id: OneStepIterator.java,v 1.17 2005/01/23 01:02:10 mcnam
+Effctive changed lines in this class: 4
+
+ * $Id: OneStepIteratorForward.java,v 1.10 2004/02/17 04:32:0 |	 * $Id: OneStepIteratorForward.java,v 1.12 2005/01/23 01:02:1
+Effctive changed lines in this class: 1
+
+ * $Id: PredicatedNodeTest.java,v 1.15 2004/02/17 04:32:08 mi |	 * $Id: PredicatedNodeTest.java,v 1.17 2005/01/23 01:02:11 mc
+Effctive changed lines in this class: 1
+
+ * $Id: RTFIterator.java,v 1.6 2004/02/17 04:32:08 minchau Ex |	 * $Id: RTFIterator.java,v 1.7 2004/08/17 19:25:34 jycli Exp 
+Effctive changed lines in this class: 1
+
+ * $Id: ReverseAxesWalker.java,v 1.14 2004/02/17 04:32:08 min |	 * $Id: ReverseAxesWalker.java,v 1.15 2004/08/17 19:25:34 jyc
+Effctive changed lines in this class: 1
+
+ * $Id: SelfIteratorNoPredicate.java,v 1.12 2004/02/17 04:32: |	 * $Id: SelfIteratorNoPredicate.java,v 1.14 2005/01/23 01:02:
+Effctive changed lines in this class: 1
+
+ * $Id: UnionChildIterator.java,v 1.5 2004/02/17 04:32:08 min |	 * $Id: UnionChildIterator.java,v 1.6 2004/08/17 19:25:34 jyc
+Effctive changed lines in this class: 1
+
+ * $Id: UnionPathIterator.java,v 1.33 2004/02/17 04:32:08 min |	 * $Id: UnionPathIterator.java,v 1.36 2005/01/23 01:02:11 mcn
+Effctive changed lines in this class: 1
+
+ * $Id: WalkerFactory.java,v 1.28 2004/02/17 04:32:08 minchau |	 * $Id: WalkerFactory.java,v 1.30 2005/01/23 01:02:11 mcnamar
+Effctive changed lines in this class: 1
+
+ * $Id: WalkingIterator.java,v 1.10 2004/02/17 04:32:08 minch |	 * $Id: WalkingIterator.java,v 1.12 2005/01/23 01:02:11 mcnam
+Effctive changed lines in this class: 2
+
+ * $Id: WalkingIteratorSorted.java,v 1.11 2004/02/17 04:32:08 |	 * $Id: WalkingIteratorSorted.java,v 1.12 2004/08/17 19:25:34
+Effctive changed lines in this class: 1
+
+ * $Id: Compiler.java,v 1.36 2004/02/17 04:32:49 minchau Exp  |	 * $Id: Compiler.java,v 1.41 2005/05/17 21:25:46 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: FunctionTable.java,v 1.6 2004/02/17 04:32:48 minchau  |	 * $Id: FunctionTable.java,v 1.9 2005/05/17 21:25:46 jycli Ex
+Effctive changed lines in this class: 18
+
+ * $Id: Keywords.java,v 1.10 2004/02/17 04:32:48 minchau Exp  |	 * $Id: Keywords.java,v 1.12 2005/05/17 21:25:46 jycli Exp $
+Effctive changed lines in this class: 185
+
+ * $Id: Lexer.java,v 1.14 2004/02/17 04:32:49 minchau Exp $   |	 * $Id: Lexer.java,v 1.16 2004/12/15 17:35:55 jycli Exp $
+Effctive changed lines in this class: 141
+
+ * $Id: XPathParser.java,v 1.28 2004/02/17 04:32:49 minchau E |	 * $Id: XPathParser.java,v 1.33 2005/05/17 21:25:46 jycli Exp
+Effctive changed lines in this class: 5
+
+ * $Id: FuncBoolean.java,v 1.9 2004/02/17 04:34:00 minchau Ex |	 * $Id: FuncBoolean.java,v 1.10 2004/08/17 19:25:35 jycli Exp
+Effctive changed lines in this class: 182
+
+ * $Id: FuncCeiling.java,v 1.8 2004/02/17 04:34:01 minchau Ex |	 * $Id: FuncCeiling.java,v 1.9 2004/08/17 19:25:36 jycli Exp 
+Effctive changed lines in this class: 1
+
+ * $Id: FuncConcat.java,v 1.11 2004/02/17 04:34:01 minchau Ex |	 * $Id: FuncConcat.java,v 1.12 2004/08/17 19:25:36 jycli Exp 
+Effctive changed lines in this class: 1
+
+ * $Id: FuncContains.java,v 1.8 2004/02/17 04:34:01 minchau E |	 * $Id: FuncContains.java,v 1.9 2004/08/17 19:25:36 jycli Exp
+Effctive changed lines in this class: 1
+
+ * $Id: FuncCount.java,v 1.10 2004/02/17 04:34:00 minchau Exp |	 * $Id: FuncCount.java,v 1.11 2004/08/17 19:25:36 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: FuncCurrent.java,v 1.13 2004/02/17 04:34:01 minchau E |	 * $Id: FuncCurrent.java,v 1.14 2004/08/17 19:25:36 jycli Exp
+Effctive changed lines in this class: 1
+
+ * $Id: FuncDoclocation.java,v 1.8 2004/02/17 04:34:01 mincha |	 * $Id: FuncDoclocation.java,v 1.9 2004/08/17 19:25:36 jycli 
+Effctive changed lines in this class: 1
+
+ * $Id: FuncExtElementAvailable.java,v 1.12 2004/02/17 04:34: |	 * $Id: FuncExtElementAvailable.java,v 1.13 2004/08/17 19:25:
+Effctive changed lines in this class: 1
+
+ * $Id: FuncExtFunction.java,v 1.24 2004/02/17 04:34:01 minch |	 * $Id: FuncExtFunction.java,v 1.27 2005/06/07 15:35:53 mkwan
+Effctive changed lines in this class: 1
+
+ * $Id: FuncExtFunctionAvailable.java,v 1.11 2004/02/17 04:34 |	 * $Id: FuncExtFunctionAvailable.java,v 1.13 2005/05/17 21:25
+Effctive changed lines in this class: 16
+
+ * $Id: FuncFalse.java,v 1.8 2004/02/17 04:34:01 minchau Exp  |	 * $Id: FuncFalse.java,v 1.9 2004/08/17 19:25:36 jycli Exp $
+Effctive changed lines in this class: 10
+
+ * $Id: FuncFloor.java,v 1.8 2004/02/17 04:34:00 minchau Exp  |	 * $Id: FuncFloor.java,v 1.9 2004/08/17 19:25:36 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: FuncGenerateId.java,v 1.10 2004/02/17 04:34:01 mincha |	 * $Id: FuncGenerateId.java,v 1.11 2004/08/17 19:25:36 jycli 
+Effctive changed lines in this class: 1
+
+ * $Id: FuncId.java,v 1.14 2004/02/17 04:34:01 minchau Exp $  |	 * $Id: FuncId.java,v 1.15 2004/08/17 19:25:36 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: FuncLang.java,v 1.8 2004/02/17 04:34:01 minchau Exp $ |	 * $Id: FuncLang.java,v 1.9 2004/08/17 19:25:36 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: FuncLast.java,v 1.15 2004/02/17 04:34:01 minchau Exp  |	 * $Id: FuncLast.java,v 1.16 2004/08/17 19:25:36 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: FuncLocalPart.java,v 1.10 2004/02/17 04:34:01 minchau |	 * $Id: FuncLocalPart.java,v 1.11 2004/08/17 19:25:36 jycli E
+Effctive changed lines in this class: 1
+
+ * $Id: FuncNamespace.java,v 1.10 2004/02/17 04:34:01 minchau |	 * $Id: FuncNamespace.java,v 1.11 2004/08/17 19:25:36 jycli E
+Effctive changed lines in this class: 1
+
+ * $Id: FuncNormalizeSpace.java,v 1.12 2004/02/17 04:34:01 mi |	 * $Id: FuncNormalizeSpace.java,v 1.13 2004/08/17 19:25:36 jy
+Effctive changed lines in this class: 1
+
+ * $Id: FuncNot.java,v 1.8 2004/02/17 04:34:00 minchau Exp $  |	 * $Id: FuncNot.java,v 1.9 2004/08/17 19:25:36 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: FuncNumber.java,v 1.8 2004/02/17 04:34:00 minchau Exp |	 * $Id: FuncNumber.java,v 1.9 2004/08/17 19:25:36 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: FuncPosition.java,v 1.12 2004/02/17 04:34:00 minchau  |	 * $Id: FuncPosition.java,v 1.13 2004/08/17 19:25:36 jycli Ex
+Effctive changed lines in this class: 1
+
+ * $Id: FuncQname.java,v 1.9 2004/02/17 04:34:01 minchau Exp  |	 * $Id: FuncQname.java,v 1.10 2004/08/17 19:25:36 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: FuncRound.java,v 1.10 2004/02/17 04:34:00 minchau Exp |	 * $Id: FuncRound.java,v 1.11 2004/08/17 19:25:36 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: FuncStartsWith.java,v 1.8 2004/02/17 04:34:00 minchau |	 * $Id: FuncStartsWith.java,v 1.9 2004/08/17 19:25:36 jycli E
+Effctive changed lines in this class: 1
+
+ * $Id: FuncString.java,v 1.8 2004/02/17 04:34:00 minchau Exp |	 * $Id: FuncString.java,v 1.9 2004/08/17 19:25:37 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: FuncStringLength.java,v 1.8 2004/02/17 04:34:01 minch |	 * $Id: FuncStringLength.java,v 1.9 2004/08/17 19:25:37 jycli
+Effctive changed lines in this class: 1
+
+ * $Id: FuncSubstring.java,v 1.12 2004/02/17 04:34:01 minchau |	 * $Id: FuncSubstring.java,v 1.13 2004/08/17 19:25:37 jycli E
+Effctive changed lines in this class: 1
+
+ * $Id: FuncSubstringAfter.java,v 1.8 2004/02/17 04:34:00 min |	 * $Id: FuncSubstringAfter.java,v 1.9 2004/08/17 19:25:37 jyc
+Effctive changed lines in this class: 1
+
+ * $Id: FuncSubstringBefore.java,v 1.8 2004/02/17 04:34:01 mi |	 * $Id: FuncSubstringBefore.java,v 1.9 2004/08/17 19:25:37 jy
+Effctive changed lines in this class: 1
+
+ * $Id: FuncSum.java,v 1.10 2004/02/17 04:34:01 minchau Exp $ |	 * $Id: FuncSum.java,v 1.11 2004/08/17 19:25:37 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: FuncSystemProperty.java,v 1.18 2004/02/23 10:29:37 ar |	 * $Id: FuncSystemProperty.java,v 1.21 2005/07/25 20:26:46 mc
+Effctive changed lines in this class: 1
+
+ * $Id: FuncTranslate.java,v 1.8 2004/02/17 04:34:00 minchau  |	 * $Id: FuncTranslate.java,v 1.9 2004/08/17 19:25:37 jycli Ex
+Effctive changed lines in this class: 4
+
+ * $Id: FuncTrue.java,v 1.8 2004/02/17 04:34:01 minchau Exp $ |	 * $Id: FuncTrue.java,v 1.9 2004/08/17 19:25:37 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: FuncUnparsedEntityURI.java,v 1.8 2004/02/17 04:34:00  |	 * $Id: FuncUnparsedEntityURI.java,v 1.9 2004/08/17 19:25:37 
+Effctive changed lines in this class: 1
+
+ * $Id: Function.java,v 1.13 2004/02/17 04:34:00 minchau Exp  |	 * $Id: Function.java,v 1.15 2005/01/23 01:08:21 mcnamara Exp
+Effctive changed lines in this class: 1
+
+ * $Id: Function2Args.java,v 1.13 2004/02/17 04:34:01 minchau |	 * $Id: Function2Args.java,v 1.15 2005/01/23 01:08:21 mcnamar
+Effctive changed lines in this class: 1
+
+ * $Id: Function3Args.java,v 1.14 2004/02/17 04:34:01 minchau |	 * $Id: Function3Args.java,v 1.16 2005/01/23 01:08:21 mcnamar
+Effctive changed lines in this class: 1
+
+ * $Id: FunctionDef1Arg.java,v 1.12 2004/02/17 04:34:00 minch |	 * $Id: FunctionDef1Arg.java,v 1.13 2004/08/17 19:25:37 jycli
+Effctive changed lines in this class: 1
+
+ * $Id: FunctionMultiArgs.java,v 1.14 2004/02/17 04:34:01 min |	 * $Id: FunctionMultiArgs.java,v 1.16 2005/01/23 01:08:21 mcn
+Effctive changed lines in this class: 1
+
+ * $Id: FunctionOneArg.java,v 1.13 2004/02/17 04:34:00 mincha |	 * $Id: FunctionOneArg.java,v 1.15 2005/01/23 01:08:21 mcnama
+Effctive changed lines in this class: 1
+
+ * $Id: ObjectFactory.java,v 1.2 2004/02/23 10:29:37 aruny Ex |	 * $Id: ObjectFactory.java,v 1.5 2004/08/17 19:25:37 jycli Ex
+Effctive changed lines in this class: 1
+
+ * $Id: WrongNumberArgsException.java,v 1.6 2004/02/17 04:34: |	 * $Id: WrongNumberArgsException.java,v 1.7 2004/08/17 19:25:
+Effctive changed lines in this class: 36
+
+ * $Id: XBoolean.java,v 1.16 2004/02/17 04:34:38 minchau Exp  |	 * $Id: XBoolean.java,v 1.18 2004/12/15 17:35:55 jycli Exp $
+Effctive changed lines in this class: 3
+
+ * $Id: XBooleanStatic.java,v 1.10 2004/02/17 04:34:38 mincha |	 * $Id: XBooleanStatic.java,v 1.12 2004/12/15 17:35:55 jycli 
+Effctive changed lines in this class: 4
+
+ * $Id: XMLStringFactoryImpl.java,v 1.6 2004/02/17 04:34:38 m |	 * $Id: XMLStringFactoryImpl.java,v 1.7 2005/01/23 01:08:21 m
+Effctive changed lines in this class: 2
+
+ * $Id: XNodeSet.java,v 1.28 2004/02/17 04:34:38 minchau Exp  |	 * $Id: XNodeSet.java,v 1.30 2004/12/15 17:35:55 jycli Exp $
+There is NO effctive change in this class
+
+ * $Id: XNodeSetForDOM.java,v 1.6 2004/02/17 04:34:38 minchau |	 * $Id: XNodeSetForDOM.java,v 1.7 2004/08/17 19:25:39 jycli E
+Effctive changed lines in this class: 7
+
+ * $Id: XNull.java,v 1.13 2004/02/17 04:34:38 minchau Exp $   |	 * $Id: XNull.java,v 1.14 2004/08/17 19:25:39 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: XNumber.java,v 1.19 2004/02/17 04:34:38 minchau Exp $ |	 * $Id: XNumber.java,v 1.21 2005/01/23 01:08:21 mcnamara Exp 
+Effctive changed lines in this class: 1
+
+ * $Id: XObject.java,v 1.25 2004/02/17 04:34:38 minchau Exp $ |	 * $Id: XObject.java,v 1.27 2005/01/23 01:08:21 mcnamara Exp 
+Effctive changed lines in this class: 1
+
+ * $Id: XRTreeFrag.java,v 1.30 2004/02/17 04:34:38 minchau Ex |	 * $Id: XRTreeFrag.java,v 1.33 2005/01/24 04:04:40 mcnamara E
+Effctive changed lines in this class: 1
+
+ * $Id: XRTreeFragSelectWrapper.java,v 1.11 2004/02/17 04:34: |	 * $Id: XRTreeFragSelectWrapper.java,v 1.13 2004/08/17 19:25:
+Effctive changed lines in this class: 59
+
+ * $Id: XString.java,v 1.14 2004/02/17 04:34:38 minchau Exp $ |	 * $Id: XString.java,v 1.20 2005/07/25 18:19:33 johng Exp $
+Effctive changed lines in this class: 13
+
+ * $Id: XStringForChars.java,v 1.8 2004/02/17 04:34:38 mincha |	 * $Id: XStringForChars.java,v 1.9 2004/08/17 19:25:40 jycli 
+Effctive changed lines in this class: 75
+
+ * $Id: XStringForFSB.java,v 1.20 2004/02/17 04:34:38 minchau |	 * $Id: XStringForFSB.java,v 1.24 2005/01/23 01:08:21 mcnamar
+Effctive changed lines in this class: 1
+
+ * $Id: And.java,v 1.9 2004/02/17 04:35:12 minchau Exp $      |	 * $Id: And.java,v 1.10 2004/08/17 19:25:40 jycli Exp $
+Effctive changed lines in this class: 3
+
+ * $Id: Bool.java,v 1.9 2004/02/17 04:35:12 minchau Exp $     |	 * $Id: Bool.java,v 1.10 2004/08/17 19:25:40 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: Div.java,v 1.8 2004/02/17 04:35:12 minchau Exp $      |	 * $Id: Div.java,v 1.9 2004/08/17 19:25:40 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: Equals.java,v 1.9 2004/02/17 04:35:12 minchau Exp $   |	 * $Id: Equals.java,v 1.10 2004/08/17 19:25:40 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: Gt.java,v 1.7 2004/02/17 04:35:12 minchau Exp $	      |	 * $Id: Gt.java,v 1.8 2004/08/17 19:25:40 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: Gte.java,v 1.7 2004/02/17 04:35:12 minchau Exp $      |	 * $Id: Gte.java,v 1.8 2004/08/17 19:25:40 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: Lt.java,v 1.7 2004/02/17 04:35:12 minchau Exp $	      |	 * $Id: Lt.java,v 1.8 2004/08/17 19:25:40 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: Lte.java,v 1.7 2004/02/17 04:35:12 minchau Exp $      |	 * $Id: Lte.java,v 1.8 2004/08/17 19:25:40 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: Minus.java,v 1.8 2004/02/17 04:35:12 minchau Exp $    |	 * $Id: Minus.java,v 1.9 2004/08/17 19:25:40 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: Mod.java,v 1.8 2004/02/17 04:35:12 minchau Exp $      |	 * $Id: Mod.java,v 1.9 2004/08/17 19:25:40 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: Mult.java,v 1.8 2004/02/17 04:35:12 minchau Exp $     |	 * $Id: Mult.java,v 1.9 2004/08/17 19:25:40 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: Neg.java,v 1.8 2004/02/17 04:35:12 minchau Exp $      |	 * $Id: Neg.java,v 1.9 2004/08/17 19:25:40 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: NotEquals.java,v 1.7 2004/02/17 04:35:12 minchau Exp  |	 * $Id: NotEquals.java,v 1.8 2004/08/17 19:25:40 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: Number.java,v 1.8 2004/02/17 04:35:12 minchau Exp $   |	 * $Id: Number.java,v 1.9 2004/08/17 19:25:40 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: Operation.java,v 1.12 2004/02/17 04:35:12 minchau Exp |	 * $Id: Operation.java,v 1.14 2005/01/23 01:08:22 mcnamara Ex
+Effctive changed lines in this class: 1
+
+ * $Id: Or.java,v 1.9 2004/02/17 04:35:12 minchau Exp $	      |	 * $Id: Or.java,v 1.10 2004/08/17 19:25:41 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: Plus.java,v 1.8 2004/02/17 04:35:12 minchau Exp $     |	 * $Id: Plus.java,v 1.9 2004/08/17 19:25:41 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: Quo.java,v 1.7 2004/02/17 04:35:12 minchau Exp $      |	 * $Id: Quo.java,v 1.9 2005/01/23 01:08:22 mcnamara Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: String.java,v 1.7 2004/02/17 04:35:12 minchau Exp $   |	 * $Id: String.java,v 1.8 2004/08/17 19:25:41 jycli Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: UnaryOperation.java,v 1.12 2004/02/17 04:35:12 mincha |	 * $Id: UnaryOperation.java,v 1.14 2005/01/23 01:08:22 mcnama
+Effctive changed lines in this class: 1
+
+ * $Id: Variable.java,v 1.22 2004/02/17 04:35:12 minchau Exp  |	 * $Id: Variable.java,v 1.26 2005/05/17 17:22:15 mkwan Exp $
+Effctive changed lines in this class: 1
+
+ * $Id: VariableSafeAbsRef.java,v 1.5 2004/02/17 04:35:12 min |	 * $Id: VariableSafeAbsRef.java,v 1.6 2004/08/17 19:25:41 jyc
+Effctive changed lines in this class: 19
+
+ * $Id: ContextMatchStepPattern.java,v 1.6 2004/02/17 04:35:3 |	 * $Id: ContextMatchStepPattern.java,v 1.8 2005/01/24 04:04:4
+Effctive changed lines in this class: 1
+
+ * $Id: FunctionPattern.java,v 1.13 2004/02/17 04:35:37 minch |	 * $Id: FunctionPattern.java,v 1.15 2005/01/23 01:08:22 mcnam
+Effctive changed lines in this class: 1
+
+ * $Id: NodeTest.java,v 1.27 2004/02/17 04:35:37 minchau Exp  |	 * $Id: NodeTest.java,v 1.30 2005/01/23 01:08:22 mcnamara Exp
+Effctive changed lines in this class: 1
+
+ * $Id: StepPattern.java,v 1.28 2004/02/17 04:35:37 minchau E |	 * $Id: StepPattern.java,v 1.31 2005/01/23 01:08:22 mcnamara 
+Effctive changed lines in this class: 3
+
+ * $Id: UnionPattern.java,v 1.13 2004/02/17 04:35:37 minchau  |	 * $Id: UnionPattern.java,v 1.15 2005/01/23 01:08:22 mcnamara
+Effctive changed lines in this class: 2
+
+ * $Id: XPATHErrorResources.java,v 1.24 2004/02/17 04:36:46 m |	 * $Id: XPATHErrorResources.java,v 1.32 2005/06/29 19:33:06 j
+Effctive changed lines in this class: 1
+
+ * $Id: XPATHErrorResources_ca.java,v 1.3 2004/02/17 04:36:46 |	 * $Id: XPATHErrorResources_ca.java,v 1.5 2005/01/23 01:39:54
+Effctive changed lines in this class: 270
+
+ * $Id: XPATHErrorResources_cs.java,v 1.3 2004/02/17 04:36:46 |	 * $Id: XPATHErrorResources_cs.java,v 1.5 2005/01/23 01:39:54
+Effctive changed lines in this class: 8
+
+ * $Id: XPATHErrorResources_de.java,v 1.8 2004/02/17 04:36:46 |	 * $Id: XPATHErrorResources_de.java,v 1.10 2005/01/23 01:39:5
+Effctive changed lines in this class: 8
+
+ * $Id: XPATHErrorResources_es.java,v 1.8 2004/02/17 04:36:46 |	 * $Id: XPATHErrorResources_es.java,v 1.10 2005/01/23 01:39:5
+Effctive changed lines in this class: 8
+
+ * $Id: XPATHErrorResources_fr.java,v 1.8 2004/02/17 04:36:46 |	 * $Id: XPATHErrorResources_fr.java,v 1.10 2005/01/23 01:39:5
+Effctive changed lines in this class: 8
+
+ * $Id: XPATHErrorResources_hu.java,v 1.3 2004/02/17 04:36:46 |	 * $Id: XPATHErrorResources_hu.java,v 1.5 2005/01/23 01:39:54
+Effctive changed lines in this class: 8
+
+ * $Id: XPATHErrorResources_it.java,v 1.8 2004/02/17 04:36:46 |	 * $Id: XPATHErrorResources_it.java,v 1.10 2005/01/23 01:39:5
+Effctive changed lines in this class: 8
+
+ * $Id: XPATHErrorResources_ja.java,v 1.8 2004/02/17 04:36:46 |	 * $Id: XPATHErrorResources_ja.java,v 1.10 2005/01/23 01:39:5
+Effctive changed lines in this class: 8
+
+ * $Id: XPATHErrorResources_ko.java,v 1.8 2004/02/17 04:36:45 |	 * $Id: XPATHErrorResources_ko.java,v 1.10 2005/01/23 01:39:5
+Effctive changed lines in this class: 8
+
+ * $Id: XPATHErrorResources_pl.java,v 1.3 2004/02/17 04:36:46 |	 * $Id: XPATHErrorResources_pl.java,v 1.5 2005/01/23 01:39:54
+Effctive changed lines in this class: 8
+
+ * $Id: XPATHErrorResources_pt_BR.java,v 1.3 2004/02/17 04:36 |	 * $Id: XPATHErrorResources_pt_BR.java,v 1.5 2005/01/23 01:39
+Effctive changed lines in this class: 8
+
+ * $Id: XPATHErrorResources_ru.java,v 1.3 2004/02/17 04:36:46 |	 * $Id: XPATHErrorResources_ru.java,v 1.5 2005/01/23 01:39:54
+Effctive changed lines in this class: 8
+
+ * $Id: XPATHErrorResources_sk.java,v 1.3 2004/02/17 04:36:46 |	 * $Id: XPATHErrorResources_sk.java,v 1.5 2005/01/23 01:39:54
+Effctive changed lines in this class: 8
+
+ * $Id: XPATHErrorResources_sv.java,v 1.7 2004/02/17 04:36:46 |	 * $Id: XPATHErrorResources_sv.java,v 1.8 2004/12/15 17:35:58
+Effctive changed lines in this class: 8
+
+ * $Id: XPATHErrorResources_tr.java,v 1.3 2004/02/17 04:36:46 |	 * $Id: XPATHErrorResources_tr.java,v 1.5 2005/01/23 01:39:54
+Effctive changed lines in this class: 8
+
+ * $Id: XPATHErrorResources_zh_CN.java,v 1.8 2004/02/17 04:36 |	 * $Id: XPATHErrorResources_zh_CN.java,v 1.10 2005/01/23 01:3
+Effctive changed lines in this class: 8
+
+ * $Id: XPATHErrorResources_zh_TW.java,v 1.8 2004/02/17 04:36 |	 * $Id: XPATHErrorResources_zh_TW.java,v 1.10 2005/01/23 01:3
+Effctive changed lines in this class: 8
+
+ * $Id: XPATHMessages.java,v 1.5 2004/02/17 04:36:46 minchau  |	 * $Id: XPATHMessages.java,v 1.6 2005/01/23 01:08:22 mcnamara
+Effctive changed lines in this class: 8
+
+Total Effctive changed lines: 10585
