@@ -1703,4 +1703,7 @@ Effctive changed lines in this class: 8
  * $Id: XPATHMessages.java,v 1.5 2004/02/17 04:36:46 minchau  |	 * $Id: XPATHMessages.java,v 1.6 2005/01/23 01:08:22 mcnamara
 Effctive changed lines in this class: 8
 
-Total Effctive changed lines: 10585
+Total Classes: 881
+Different Classes Num: 568
+Changed Classses Num: 522
+Total Effctive Changed Lines: 10585

@@ -2621,4 +2621,6 @@ Effctive changed lines in this class: 824
  * $Id: XPATHMessages.java,v 1.6 2005/01/23 01:08:22 mcnamara |	 * $Id$
 Effctive changed lines in this class: 259
 
-Total Effctive changed lines: 23337
+Different Classes Num: 874
+Changed Classses Num: 253
+Total Effctive Changed Lines: 23337
